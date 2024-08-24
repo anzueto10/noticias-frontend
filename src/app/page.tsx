@@ -1,5 +1,5 @@
 const HomePage = () => {
-  return <main>home page</main>;
+  return <main className="w-full flex-grow"></main>;
 };
 
 export default HomePage;
