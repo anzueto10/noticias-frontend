@@ -1,0 +1,48 @@
+[
+  {
+    "author": { "name": "María Rodríguez", "photo": "/placeholder-user.jpg" },
+    "new": {
+      "id_noticias": 8,
+      "titulo": "Lanzamiento de nuevo dispositivo móvil",
+      "clasificacion": {
+        "id_clasificacion": 4,
+        "nombre": "Tecnología"
+      },
+      "descripcion": "Descripción de la noticia sobre el lanzamiento del nuevo dispositivo móvil",
+      "fecha_creacion": "2024-08-21",
+      "texto": "Texto completo sobre el lanzamiento del nuevo dispositivo móvil con características innovadoras",
+      "enlace_photo": "https://happypik.ru/wp-content/uploads/2019/09/2-kotenka43.jpg"
+    }
+  },
+  {
+    "new": {
+      "id_noticias": 7,
+      "titulo": "Exposición de arte contemporáneo",
+      "clasificacion": {
+        "id_clasificacion": 3,
+        "nombre": "Cultura"
+      },
+      "descripcion": "Descripción de la noticia sobre la exposición de arte contemporáneo",
+      "fecha_creacion": "2024-08-20",
+      "texto": "Texto completo sobre la exposición de arte contemporáneo en el museo local",
+      "enlace_photo": "https://wallpapercave.com/wp/wp2914299.jpg"
+    },
+    "author": { "name": "Carlos Mendoza", "photo": "/placeholder-user.jpg" }
+  },
+  {
+    "new": {
+      "id_noticias": 6,
+      "titulo": "Campeonato de Atletismo",
+      "clasificacion": {
+        "id_clasificacion": 2,
+        "nombre": "Deportes"
+      },
+      "descripcion": "Descripción de la noticia sobre el campeonato de atletismo en la capital",
+      "fecha_creacion": "2024-08-19",
+      "texto": "Texto completo sobre el campeonato de atletismo con la participación de atletas internacionales",
+      "enlace_photo": "https://c4.wallpaperflare.com/wallpaper/56/372/834/three-adorable-kittens-in-a-small-basket-hd-wallpaper-wallpaper-preview.jpg"
+    },
+
+    "author": { "name": "Laura Sánchez", "photo": "/placeholder-user.jpg" }
+  }
+]

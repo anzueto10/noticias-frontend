@@ -1,0 +1,98 @@
+[
+  {
+    "id_noticias": 1,
+    "titulo": "Elecciones SUPERpresidenciales",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Política"
+    },
+    "descripcion": "Descripción de la noticia sobre elecciones presidenciales",
+    "fecha_creacion": "2024-08-21",
+    "texto": "Texto completo sobre las elecciones presidenciales",
+    "enlace_photo": "https://www.petpark.co.il/cms_data/ProdCatImages/CatImg15260998202059411340.jpg"
+  },
+  {
+    "id_noticias": 2,
+    "titulo": "Final del Mundial",
+    "clasificacion": {
+      "id_clasificacion": 2,
+      "nombre": "Deportes"
+    },
+    "descripcion": "Descripción de la noticia sobre la final del mundial",
+    "fecha_creacion": "2024-07-15",
+    "texto": "Texto completo sobre la final del Mundial",
+    "enlace_photo": "https://i.pinimg.com/originals/a4/0e/2b/a40e2b1db5d45ad22aea43a0d718f215.png"
+  },
+  {
+    "id_noticias": 3,
+    "titulo": "Concierto de música clásica",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Cultura"
+    },
+    "descripcion": "Descripción de la noticia sobre el concierto de música clásica",
+    "fecha_creacion": "2024-06-10",
+    "texto": "Texto completo sobre el concierto de música clásica",
+    "enlace_photo": "https://kartynky.co.ua/wp-content/plugins/phastpress/phast.php/https-3A-2F-2Fkartynky.co.ua-2Fwp-2Dcontent-2Fuploads-2F2015-2F02-2F1424.jpg/service=images/cacheMarker=1566079062-2D33304/token=2e4df441cf33d429/__p__.jpg"
+  },
+  {
+    "id_noticias": 4,
+    "titulo": "Nueva actualización tecnológica",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Tecnología"
+    },
+    "descripcion": "Descripción de la noticia sobre la actualización tecnológica",
+    "fecha_creacion": "2024-05-05",
+    "texto": "Texto completo sobre la nueva actualización tecnológica",
+    "enlace_photo": "https://p4.wallpaperbetter.com/wallpaper/794/317/72/baby-cat-cute-kitten-wallpaper-preview.jpg"
+  },
+  {
+    "id_noticias": 5,
+    "titulo": "Nuevas reformas fiscales",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Política"
+    },
+    "descripcion": "Descripción de la noticia sobre las nuevas reformas fiscales",
+    "fecha_creacion": "2024-08-18",
+    "texto": "Texto completo sobre las reformas fiscales propuestas por el gobierno",
+    "enlace_photo": "https://thumbs.dreamstime.com/b/%E4%B8%89%E5%8F%AA%E7%BA%A2%E8%89%B2%E5%B0%8F%E7%8C%AB-33875260.jpg"
+  },
+  {
+    "id_noticias": 6,
+    "titulo": "Campeonato de Atletismo",
+    "clasificacion": {
+      "id_clasificacion": 2,
+      "nombre": "Deportes"
+    },
+    "descripcion": "Descripción de la noticia sobre el campeonato de atletismo en la capital",
+    "fecha_creacion": "2024-08-19",
+    "texto": "Texto completo sobre el campeonato de atletismo con la participación de atletas internacionales",
+    "enlace_photo": "https://c4.wallpaperflare.com/wallpaper/56/372/834/three-adorable-kittens-in-a-small-basket-hd-wallpaper-wallpaper-preview.jpg"
+  },
+  {
+    "id_noticias": 7,
+    "titulo": "Exposición de arte contemporáneo",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Cultura"
+    },
+    "descripcion": "Descripción de la noticia sobre la exposición de arte contemporáneo",
+    "fecha_creacion": "2024-08-20",
+    "texto": "Texto completo sobre la exposición de arte contemporáneo en el museo local",
+    "enlace_photo": "https://wallpapercave.com/wp/wp2914299.jpg"
+  },
+  {
+    "id_noticias": 8,
+    "titulo": "Lanzamiento de nuevo dispositivo móvil",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Tecnología"
+    },
+    "descripcion": "Descripción de la noticia sobre el lanzamiento del nuevo dispositivo móvil",
+    "fecha_creacion": "2024-08-21",
+    "texto": "Texto completo sobre el lanzamiento del nuevo dispositivo móvil con características innovadoras",
+    "enlace_photo": "https://happypik.ru/wp-content/uploads/2019/09/2-kotenka43.jpg"
+  }
+]
