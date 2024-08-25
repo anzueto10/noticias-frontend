@@ -15,10 +15,10 @@
   --accent-dark: #1C2126;
   --accent-foreground-light: hsl(240, 5.9%, 10%);
   --accent-foreground-dark: hsl(60, 0%, 100%);
-  --muted-light: #e2e2e2;
-  --muted-dark: hsl(240, 5%, 25%);
-  --muted-foreground-light: hsl(240, 3.8%, 45%);
-  --muted-foreground-dark: hsl(60, 5%, 85%);
+  --muted-light: #E0E0E0;
+  --muted-dark: #3d3d3d;
+  --muted-foreground-light: #888891;
+  --muted-foreground-dark: #dadada;
   --border-light: #dbe1e6;
   --border-dark: #223548;
   --success-light: #D4EDDA;

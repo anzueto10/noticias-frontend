@@ -18,7 +18,6 @@ const Button: React.FC<ButtonProps> = ({
   className,
   ...props
 }) => {
-  console.log(variant);
   const baseClasses =
     "inline-flex items-center gap-2 rounded-md py-1.5 px-3 text-sm font-semibold focus:outline-none";
 
@@ -48,7 +47,6 @@ const Button: React.FC<ButtonProps> = ({
     ${colorClasses[color]} 
     ${className || ""}
   `.trim();
-  console.log(combinedClasses);
   return (
     <ButtonHeadless {...props} className={combinedClasses}>
       {children}

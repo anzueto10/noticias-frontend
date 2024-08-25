@@ -1,16 +1,18 @@
 import type { NewCardProps } from "@/modules/news/types";
 import Link from "next/link";
 
-const FeaturedNewCard: React.FC<NewCardProps> = ({ new: newLy }) => {
+const FeaturedNewCard: React.FC<NewCardProps> = ({ new: newLy, innerRef }) => {
   const { descripcion, enlace_photo, id_noticias, titulo } = newLy;
-
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
+    <div
+      className="relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl"
+      ref={innerRef}
+    >
       <Link className="absolute inset-0 z-10" href={`/news/${id_noticias}`}>
         <span className="sr-only">Ver Artículo</span>
       </Link>
       <img
-        alt="Noticia Principal"
+        alt={`Imagen de fondo de la noticia${titulo}`}
         className="object-cover w-full h-[400px] transition-all hover:scale-105"
         height="400"
         src={enlace_photo}

@@ -15,6 +15,7 @@ export interface New {
 
 export interface NewCardProps {
   new: New;
+  innerRef?: React.Ref<HTMLDivElement>;
 }
 
 export interface MoreReadNewCardProps extends NewCardProps {
@@ -26,6 +27,6 @@ export interface NewCategoryProps {
 }
 
 interface NewsContainerProps {
-  initialNews: Array<New>;
+  news: Array<New>;
   newsToShow?: number;
 }

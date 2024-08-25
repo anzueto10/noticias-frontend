@@ -1,16 +1,15 @@
-import type { New } from "../../types";
+import type { NewsContainerProps } from "../../types";
 import MoreReadNewCard from "../cards/MoreReadNewCard";
 
-const MoreReadNewsContainer = ({
-  initialNews,
-}: {
-  initialNews: Array<New>;
+const MoreReadNewsContainer: React.FC<NewsContainerProps> = ({
+  news,
+  newsToShow,
 }) => {
   return (
     <div className="space-y-4">
-      {initialNews.length > 0 ? (
+      {news.length > 0 ? (
         <>
-          {initialNews.slice(0, 3).map((newLy, index) => (
+          {news.slice(0, newsToShow ? newsToShow : -1).map((newLy, index) => (
             <MoreReadNewCard key={index} new={newLy} index={index} />
           ))}
         </>

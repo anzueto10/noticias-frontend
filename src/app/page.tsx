@@ -5,8 +5,8 @@ import PopularCategoriesSection from "@/modules/news/components/sections/Popular
 import newsMock from "@/modules/news/mocks/news.json";
 import type { New } from "@/modules/news/types";
 
-const HomePage = () => {
-  const news: Array<New> = newsMock;
+const HomePage = async () => {
+  const news: Array<New> = await newsMock;
   return (
     <main className="w-full flex-grow flex-1">
       <FeaturedNewsSection news={news} />

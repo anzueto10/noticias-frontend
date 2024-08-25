@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-background-light dark:bg-background-dark rounded-lg shadow m-4">
+    <footer className="bg-background-light dark:bg-background-dark rounded-lg shadow mt-auto">
       <div className="w-full mx-auto p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm text-muted-foreground-light dark:text-muted-foreground-dark sm:text-center">
           © {new Date().getFullYear()}{" "}
