@@ -2,45 +2,48 @@
   {
     "author": { "name": "María Rodríguez", "photo": "/placeholder-user.jpg" },
     "new": {
-      "id_noticias": 8,
-      "titulo": "Lanzamiento de nuevo dispositivo móvil",
+      "id_noticias": 105,
+      "titulo": "Crecimiento urbano en ciudades africanas",
       "clasificacion": {
-        "id_clasificacion": 4,
-        "nombre": "Tecnología"
+        "id_clasificacion": 1,
+        "nombre": "Mundo"
       },
-      "descripcion": "Descripción de la noticia sobre el lanzamiento del nuevo dispositivo móvil",
-      "fecha_creacion": "2024-08-21",
-      "texto": "Texto completo sobre el lanzamiento del nuevo dispositivo móvil con características innovadoras",
-      "enlace_photo": "https://happypik.ru/wp-content/uploads/2019/09/2-kotenka43.jpg"
+      "descripcion": "Las ciudades africanas est\u00e1n experimentando un r\u00e1pido crecimiento urbano con nuevos desarrollos e inversiones.",
+      "fecha_creacion": "2024-09-02",
+      "texto": "El crecimiento urbano est\u00e1 impulsando el desarrollo econ\u00f3mico y planteando desaf\u00edos en t\u00e9rminos de infraestructura y servicios.",
+      "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+      "trending": true
     }
   },
   {
     "new": {
-      "id_noticias": 7,
-      "titulo": "Exposición de arte contemporáneo",
+      "id_noticias": 78,
+      "titulo": "Avances en la tecnolog\u00eda de bater\u00edas",
       "clasificacion": {
         "id_clasificacion": 3,
-        "nombre": "Cultura"
+        "nombre": "Tecnolog\u00eda"
       },
-      "descripcion": "Descripción de la noticia sobre la exposición de arte contemporáneo",
-      "fecha_creacion": "2024-08-20",
-      "texto": "Texto completo sobre la exposición de arte contemporáneo en el museo local",
-      "enlace_photo": "https://wallpapercave.com/wp/wp2914299.jpg"
+      "descripcion": "Se desarrollan nuevas tecnolog\u00edas de bater\u00edas que podr\u00edan mejorar significativamente la duraci\u00f3n y eficiencia de los dispositivos electr\u00f3nicos.",
+      "fecha_creacion": "2024-08-25",
+      "texto": "Las nuevas bater\u00edas ofrecen mayor capacidad de almacenamiento y tiempos de carga m\u00e1s r\u00e1pidos, revolucionando el mercado de los dispositivos electr\u00f3nicos.",
+      "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+      "trending": true
     },
     "author": { "name": "Carlos Mendoza", "photo": "/placeholder-user.jpg" }
   },
   {
     "new": {
-      "id_noticias": 6,
-      "titulo": "Campeonato de Atletismo",
+      "id_noticias": 59,
+      "titulo": "Nuevo tratamiento contra el c\u00e1ncer",
       "clasificacion": {
-        "id_clasificacion": 2,
-        "nombre": "Deportes"
+        "id_clasificacion": 4,
+        "nombre": "Ciencia"
       },
-      "descripcion": "Descripción de la noticia sobre el campeonato de atletismo en la capital",
-      "fecha_creacion": "2024-08-19",
-      "texto": "Texto completo sobre el campeonato de atletismo con la participación de atletas internacionales",
-      "enlace_photo": "https://c4.wallpaperflare.com/wallpaper/56/372/834/three-adorable-kittens-in-a-small-basket-hd-wallpaper-wallpaper-preview.jpg"
+      "descripcion": "Un innovador tratamiento muestra resultados prometedores en la lucha contra el c\u00e1ncer.",
+      "fecha_creacion": "2024-08-28",
+      "texto": "Ensayos cl\u00ednicos recientes han demostrado que un nuevo tratamiento es efectivo en reducir tumores en pacientes con c\u00e1ncer avanzado.",
+      "enlace_photo": "https://cdn2.thecatapi.com/images/jkl.jpg",
+      "trending": false
     },
 
     "author": { "name": "Laura Sánchez", "photo": "/placeholder-user.jpg" }

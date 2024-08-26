@@ -25,7 +25,10 @@ const RootLayout = ({
             <NavBar />
             <NavigationBreadcrumbs />
           </header>
-          {children}
+          <main className="w-full flex-grow flex-1 flex flex-col">
+            {children}
+          </main>
+
           <Footer />
         </ReactQueryProvider>
       </body>

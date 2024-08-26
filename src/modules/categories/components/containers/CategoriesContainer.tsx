@@ -14,7 +14,7 @@ const CategoriesContainer: React.FC<CategoriesContainerProps> = ({
       {categories.length > 0 ? (
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map((category, index) => (
-            <li className="h-full">
+            <li className="h-full" key={index}>
               {/* Manejar la lógica para obtener las noticias, podría ser que el backend devuelva con una solicitud a categoria/id con noticias seleccionadas por el backend.
                */}
               <CategoryCard
@@ -24,7 +24,6 @@ const CategoriesContainer: React.FC<CategoriesContainerProps> = ({
                     (newLy) => newLy.clasificacion.nombre === category.nombre
                   )
                   .slice(0, 2)}
-                key={index}
                 bgColor={colors[Math.floor(Math.random() * colors.length)][1]}
               />
             </li>

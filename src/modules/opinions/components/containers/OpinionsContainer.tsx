@@ -9,7 +9,9 @@ const OpinionsContainer = async () => {
     <div className="grid gap-6">
       <ul>
         {opinions.map((opinion, index) => (
-          <OpinionCard key={index} opinion={opinion} />
+          <li key={index}>
+            <OpinionCard opinion={opinion} />
+          </li>
         ))}
       </ul>
     </div>
