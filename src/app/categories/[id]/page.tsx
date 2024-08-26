@@ -26,11 +26,11 @@ const CategoryPage = ({ params }: { params: { id: string } }) => {
         new Date(b.fecha_creacion).getTime() -
         new Date(a.fecha_creacion).getTime()
       );
-    else sorterBy === "earliest";
-    return (
-      new Date(a.fecha_creacion).getTime() -
-      new Date(b.fecha_creacion).getTime()
-    );
+    else
+      return (
+        new Date(a.fecha_creacion).getTime() -
+        new Date(b.fecha_creacion).getTime()
+      );
   });
 
   const filteredNews: Array<New> = filterTrending

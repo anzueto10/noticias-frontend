@@ -9,7 +9,7 @@ const LazyNewsContainer = () => {
   const { ref, inView } = useInView({});
 
   const fetchNews = async ({ pageParam }: { pageParam: number }) => {
-    const news = newsMock.slice(pageParam, pageParam + 5) as any;
+    const news = newsMock.slice(pageParam, pageParam + 5);
     return news;
     //TODO hacer petición a la api
     //"https://localhost:5000/noticias?page=${pageParam}"

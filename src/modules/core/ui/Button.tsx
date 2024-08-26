@@ -1,30 +1,22 @@
-import {
-  Button as ButtonHeadless,
-  ButtonProps as HeadlessButtonProps,
-} from "@headlessui/react";
-
-type Variant = "primary" | "secondary" | "outline";
-type Color = "default" | "danger" | "success" | "highlight";
-
-interface ButtonProps extends HeadlessButtonProps {
-  variant?: Variant;
-  color?: Color;
-}
+import { Button as ButtonHeadless } from "@headlessui/react";
+import { ButtonProps } from "@/modules/core/types";
 
 const Button: React.FC<ButtonProps> = ({
   children,
   variant = "primary",
   color = "default",
   className,
+  size = "md",
   ...props
 }) => {
   const baseClasses =
-    "inline-flex items-center gap-2 rounded-md py-1.5 px-3 text-sm font-semibold focus:outline-none transition-all";
+    "inline-flex items-center gap-2 rounded-md py-1.5 px-3 text-sm font-semibold focus:outline-none transition-colors";
 
   const variantClasses = {
     primary: "shadow-inner",
     secondary: "shadow-inner",
-    outline: "border bg-transparent",
+    outline:
+      "border bg-transparent hover:bg-accent-light dark:hover:bg-accent-dark",
   };
 
   const colorClasses = {
@@ -41,12 +33,19 @@ const Button: React.FC<ButtonProps> = ({
         : variant === "secondary" && "bg-highlight text-white",
   };
 
+  const sizeClasses = {
+    sm: "py-1 px-2 text-xs",
+    md: "py-1.5 px-3 text-sm",
+    lg: "py-2 px-4 text-base",
+  };
+
   const combinedClasses = `
-    ${baseClasses} 
-    ${variantClasses[variant]} 
-    ${colorClasses[color]} 
-    ${className || ""}
-  `.trim();
+  ${baseClasses} 
+  ${variantClasses[variant]} 
+  ${colorClasses[color]} 
+  ${sizeClasses[size]} 
+  ${className || ""}
+`.trim();
   return (
     <ButtonHeadless {...props} className={combinedClasses}>
       {children}

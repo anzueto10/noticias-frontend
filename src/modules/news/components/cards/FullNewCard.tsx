@@ -29,7 +29,7 @@ const FullNewCard: React.FC<NewCardProps> = ({ new: newLy }) => {
         <p className="text-gray-600 dark:text-gray-300 mb-4">{descripcion}</p>
         <div className="flex justify-between items-center">
           <Link
-            href={`/noticias/${id_noticias}`}
+            href={`/news/${id_noticias}`}
             className="text-highlight hover:underline"
           >
             Leer más

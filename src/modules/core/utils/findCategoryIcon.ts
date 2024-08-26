@@ -5,7 +5,7 @@ export const findCategoryIcon = (
   name: string
 ): ForwardRefExoticComponent<SVGProps<SVGSVGElement>> => {
   const entry = Object.entries(CATEGORY_ICONS).find(
-    ([_, value]) => value.text === name.toLocaleLowerCase()
+    ([, value]) => value.text === name.toLocaleLowerCase()
   );
   return entry ? entry[1].Icon : CATEGORY_ICONS.DEFAULT.Icon;
 };

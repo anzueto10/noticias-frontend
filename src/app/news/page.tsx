@@ -1,4 +1,3 @@
-import FeaturedNewsContainer from "@/modules/news/components/containers/FeaturedNewsContainer";
 import LazyNewsContainer from "@/modules/news/components/containers/LazyNewContainer";
 
 const NewsPage = async () => {
