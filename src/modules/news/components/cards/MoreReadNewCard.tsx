@@ -1,4 +1,4 @@
-import type { MoreReadNewCardProps } from "../../types";
+import type { MoreReadNewCardProps } from "@/modules/news/types";
 import Link from "next/link";
 
 const MoreReadNewCard: React.FC<MoreReadNewCardProps> = ({

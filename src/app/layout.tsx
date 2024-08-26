@@ -4,6 +4,7 @@ import "./globals.css";
 import NavBar from "@/modules/core/components/NavBar";
 import Footer from "@/modules/core/components/Footer";
 import ReactQueryProvider from "./providers";
+import NavigationBreadcrumbs from "@/modules/core/components/NavigationBreadcrumbs";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,8 +21,10 @@ const RootLayout = ({
     <html lang="en">
       <body className={`${inter.className} flex flex-col`}>
         <ReactQueryProvider>
-          {" "}
-          <NavBar />
+          <header>
+            <NavBar />
+            <NavigationBreadcrumbs />
+          </header>
           {children}
           <Footer />
         </ReactQueryProvider>

@@ -1,6 +1,6 @@
-import type { Category } from "../../types";
-import NewCategoriesContainer from "../containers/NewCategoriesContainer";
-import categoriesMock from "@/modules/news/mocks/categories.json";
+import { Category } from "@/modules/categories/types";
+import NewCategoriesContainer from "@/modules/news/components/containers/NewCategoriesContainer";
+import categoriesMock from "@/modules/categories/mocks/categories.json";
 
 const PopularCategoriesSection = () => {
   const categories: Array<Category> = categoriesMock;

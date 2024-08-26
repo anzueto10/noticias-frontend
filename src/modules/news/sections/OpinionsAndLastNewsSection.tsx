@@ -1,7 +1,7 @@
 import OpinionsContainer from "@/modules/opinions/components/containers/OpinionsContainer";
-import type { New } from "../../types";
-import NewsContainer from "../containers/NewsContainer";
-import MoreReadNewsContainer from "../containers/MoreReadNewsContainer";
+import type { New } from "@/modules/news/types";
+import NewsContainer from "@/modules/news/components/containers/NewsContainer";
+import MoreReadNewsContainer from "@/modules/news/components/containers/MoreReadNewsContainer";
 import Link from "next/link";
 
 const OpinionsAndLastNewsSection = ({ news }: { news: Array<New> }) => {
@@ -13,7 +13,7 @@ const OpinionsAndLastNewsSection = ({ news }: { news: Array<New> }) => {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">
               Últimas Noticias
             </h2>
-            <NewsContainer initialNews={news} newsToShow={4} />
+            <NewsContainer news={news} newsToShow={4} />
             <Link
               href="/news/"
               className="flex flex-col items-center justify-center px-6 py-3 border rounded-lg shadow-md hover:bg-accent-light transition-colors flex-grow max-w-fit"
@@ -30,7 +30,7 @@ const OpinionsAndLastNewsSection = ({ news }: { news: Array<New> }) => {
               <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl mb-4">
                 Más Leídas
               </h3>
-              <MoreReadNewsContainer initialNews={news} />
+              <MoreReadNewsContainer news={news} newsToShow={10} />
             </div>
           </div>
         </div>

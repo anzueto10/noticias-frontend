@@ -5,7 +5,7 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { NAVBAR_LINKS } from "../constants/componentsConstants";
+import { NAVBAR_LINKS } from "@/modules/core/constants/componentsConstants";
 import Link from "next/link";
 
 const NavBar = () => {

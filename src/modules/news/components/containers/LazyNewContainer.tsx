@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import newsMock from "@/modules/news/mocks/news.json";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { useInView } from "react-intersection-observer";
-import FeaturedNewsContainer from "./FeaturedNewsContainer";
+import FeaturedNewsContainer from "@/modules/news/components/containers/FeaturedNewsContainer";
 
 const LazyNewsContainer = () => {
   const { ref, inView } = useInView({});

@@ -1,8 +1,8 @@
-import FeaturedNewsSection from "@/modules/news/components/sections/FeaturedNewsSection";
-import InformedFormSection from "@/modules/news/components/sections/InformedFormSection";
-import OpinionsAndLastNewsSection from "@/modules/news/components/sections/OpinionsAndLastNewsSection";
-import PopularCategoriesSection from "@/modules/news/components/sections/PopularCategoriesSection";
 import newsMock from "@/modules/news/mocks/news.json";
+import FeaturedNewsSection from "@/modules/news/sections/FeaturedNewsSection";
+import InformedFormSection from "@/modules/news/sections/InformedFormSection";
+import OpinionsAndLastNewsSection from "@/modules/news/sections/OpinionsAndLastNewsSection";
+import PopularCategoriesSection from "@/modules/news/sections/PopularCategoriesSection";
 import type { New } from "@/modules/news/types";
 
 const HomePage = async () => {

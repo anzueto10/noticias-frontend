@@ -1,4 +1,4 @@
-import SendMail from "../forms/SendMail";
+import SendMail from "@/modules/news/components/forms/SendMail";
 
 const InformedFormSection = () => {
   return (

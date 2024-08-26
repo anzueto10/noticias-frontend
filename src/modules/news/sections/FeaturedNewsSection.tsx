@@ -1,6 +1,6 @@
-import FeaturedNewCard from "../cards/FeaturedNewCard";
-import HorizontalNewCard from "../cards/HorizontalNewCard";
-import type { New } from "../../types";
+import FeaturedNewCard from "@/modules/news/components/cards/FeaturedNewCard";
+import HorizontalNewCard from "@/modules/news/components/cards/HorizontalNewCard";
+import type { New } from "@/modules/news/types";
 
 const FeaturedNewsSection = ({ news }: { news: Array<New> }) => {
   const randomMainFeaturedNewIndex = Math.floor(Math.random() * news.length);

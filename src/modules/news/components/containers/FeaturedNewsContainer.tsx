@@ -1,5 +1,5 @@
-import type { NewsContainerProps } from "../../types";
-import FeaturedNewCard from "../cards/FeaturedNewCard";
+import type { NewsContainerProps } from "@/modules/news/types";
+import FeaturedNewCard from "@/modules/news/components/cards/FeaturedNewCard";
 
 const FeaturedNewsContainer: React.FC<NewsContainerProps> = ({
   news,

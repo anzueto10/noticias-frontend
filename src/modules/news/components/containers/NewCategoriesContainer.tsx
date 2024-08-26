@@ -1,5 +1,5 @@
-import type { Category } from "../../types";
-import NewCategoryCard from "../cards/NewCategoryCard";
+import type { Category } from "@/modules/categories/types";
+import NewCategoryCard from "@/modules/news/components/cards/NewCategoryCard";
 
 const NewCategoriesContainer = ({
   categories,

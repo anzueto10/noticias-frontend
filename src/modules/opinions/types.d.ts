@@ -1,4 +1,4 @@
-import type { New } from "../news/types";
+import type { New } from "@/modules/news/types";
 
 export interface Author {
   name: string;

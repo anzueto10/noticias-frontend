@@ -3,109 +3,118 @@
     "id_noticias": 1,
     "titulo": "Elecciones SUPERpresidenciales",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "Descripción de la noticia sobre elecciones presidenciales",
+    "descripcion": "Descripci\u00f3n de la noticia sobre elecciones presidenciales",
     "fecha_creacion": "2024-08-21",
     "texto": "Texto completo sobre las elecciones presidenciales",
-    "enlace_photo": "https://www.petpark.co.il/cms_data/ProdCatImages/CatImg15260998202059411340.jpg"
+    "enlace_photo": "https://www.petpark.co.il/cms_data/ProdCatImages/CatImg15260998202059411340.jpg",
+    "trending": false
   },
   {
     "id_noticias": 2,
     "titulo": "Final del Mundial",
     "clasificacion": {
-      "id_clasificacion": 2,
+      "id_clasificacion": 9,
       "nombre": "Deportes"
     },
-    "descripcion": "Descripción de la noticia sobre la final del mundial",
+    "descripcion": "Descripci\u00f3n de la noticia sobre la final del mundial",
     "fecha_creacion": "2024-07-15",
     "texto": "Texto completo sobre la final del Mundial",
-    "enlace_photo": "https://i.pinimg.com/originals/a4/0e/2b/a40e2b1db5d45ad22aea43a0d718f215.png"
+    "enlace_photo": "https://i.pinimg.com/originals/a4/0e/2b/a40e2b1db5d45ad22aea43a0d718f215.png",
+    "trending": false
   },
   {
     "id_noticias": 3,
-    "titulo": "Concierto de música clásica",
+    "titulo": "Concierto de m\u00fasica cl\u00e1sica",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Descripción de la noticia sobre el concierto de música clásica",
+    "descripcion": "Descripci\u00f3n de la noticia sobre el concierto de m\u00fasica cl\u00e1sica",
     "fecha_creacion": "2024-06-10",
-    "texto": "Texto completo sobre el concierto de música clásica",
-    "enlace_photo": "https://kartynky.co.ua/wp-content/plugins/phastpress/phast.php/https-3A-2F-2Fkartynky.co.ua-2Fwp-2Dcontent-2Fuploads-2F2015-2F02-2F1424.jpg/service=images/cacheMarker=1566079062-2D33304/token=2e4df441cf33d429/__p__.jpg"
+    "texto": "Texto completo sobre el concierto de m\u00fasica cl\u00e1sica",
+    "enlace_photo": "https://kartynky.co.ua/wp-content/plugins/phastpress/phast.php/https-3A-2F-2Fkartynky.co.ua-2Fwp-2Dcontent-2Fuploads-2F2015-2F02-2F1424.jpg/service=images/cacheMarker=1566079062-2D33304/token=2e4df441cf33d429/__p__.jpg",
+    "trending": false
   },
   {
     "id_noticias": 4,
-    "titulo": "Nueva actualización tecnológica",
+    "titulo": "Nueva actualizaci\u00f3n tecnol\u00f3gica",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Descripción de la noticia sobre la actualización tecnológica",
+    "descripcion": "Descripci\u00f3n de la noticia sobre la actualizaci\u00f3n tecnol\u00f3gica",
     "fecha_creacion": "2024-05-05",
-    "texto": "Texto completo sobre la nueva actualización tecnológica",
-    "enlace_photo": "https://p4.wallpaperbetter.com/wallpaper/794/317/72/baby-cat-cute-kitten-wallpaper-preview.jpg"
+    "texto": "Texto completo sobre la nueva actualizaci\u00f3n tecnol\u00f3gica",
+    "enlace_photo": "https://p4.wallpaperbetter.com/wallpaper/794/317/72/baby-cat-cute-kitten-wallpaper-preview.jpg",
+    "trending": false
   },
   {
     "id_noticias": 5,
     "titulo": "Nuevas reformas fiscales",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "Descripción de la noticia sobre las nuevas reformas fiscales",
+    "descripcion": "Descripci\u00f3n de la noticia sobre las nuevas reformas fiscales",
     "fecha_creacion": "2024-08-18",
     "texto": "Texto completo sobre las reformas fiscales propuestas por el gobierno",
-    "enlace_photo": "https://thumbs.dreamstime.com/b/%E4%B8%89%E5%8F%AA%E7%BA%A2%E8%89%B2%E5%B0%8F%E7%8C%AB-33875260.jpg"
+    "enlace_photo": "https://thumbs.dreamstime.com/b/%E4%B8%89%E5%8F%AA%E7%BA%A2%E8%89%B2%E5%B0%8F%E7%8C%AB-33875260.jpg",
+    "trending": false
   },
   {
     "id_noticias": 6,
     "titulo": "Campeonato de Atletismo",
     "clasificacion": {
-      "id_clasificacion": 2,
+      "id_clasificacion": 9,
       "nombre": "Deportes"
     },
-    "descripcion": "Descripción de la noticia sobre el campeonato de atletismo en la capital",
+    "descripcion": "Descripci\u00f3n de la noticia sobre el campeonato de atletismo en la capital",
     "fecha_creacion": "2024-08-19",
-    "texto": "Texto completo sobre el campeonato de atletismo con la participación de atletas internacionales",
-    "enlace_photo": "https://c4.wallpaperflare.com/wallpaper/56/372/834/three-adorable-kittens-in-a-small-basket-hd-wallpaper-wallpaper-preview.jpg"
+    "texto": "Texto completo sobre el campeonato de atletismo con la participaci\u00f3n de atletas internacionales",
+    "enlace_photo": "https://c4.wallpaperflare.com/wallpaper/56/372/834/three-adorable-kittens-in-a-small-basket-hd-wallpaper-wallpaper-preview.jpg",
+    "trending": false
   },
   {
     "id_noticias": 7,
-    "titulo": "Exposición de arte contemporáneo",
+    "titulo": "Exposici\u00f3n de arte contempor\u00e1neo",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Descripción de la noticia sobre la exposición de arte contemporáneo",
+    "descripcion": "Descripci\u00f3n de la noticia sobre la exposici\u00f3n de arte contempor\u00e1neo",
     "fecha_creacion": "2024-08-20",
-    "texto": "Texto completo sobre la exposición de arte contemporáneo en el museo local",
-    "enlace_photo": "https://wallpapercave.com/wp/wp2914299.jpg"
+    "texto": "Texto completo sobre la exposici\u00f3n de arte contempor\u00e1neo en el museo local",
+    "enlace_photo": "https://wallpapercave.com/wp/wp2914299.jpg",
+    "trending": false
   },
   {
     "id_noticias": 8,
-    "titulo": "Lanzamiento de nuevo dispositivo móvil",
+    "titulo": "Lanzamiento de nuevo dispositivo m\u00f3vil",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Descripción de la noticia sobre el lanzamiento del nuevo dispositivo móvil",
+    "descripcion": "Descripci\u00f3n de la noticia sobre el lanzamiento del nuevo dispositivo m\u00f3vil",
     "fecha_creacion": "2024-08-21",
-    "texto": "Texto completo sobre el lanzamiento del nuevo dispositivo móvil con características innovadoras",
-    "enlace_photo": "https://happypik.ru/wp-content/uploads/2019/09/2-kotenka43.jpg"
+    "texto": "Texto completo sobre el lanzamiento del nuevo dispositivo m\u00f3vil con caracter\u00edsticas innovadoras",
+    "enlace_photo": "https://happypik.ru/wp-content/uploads/2019/09/2-kotenka43.jpg",
+    "trending": false
   },
   {
     "id_noticias": 9,
-    "titulo": "Inauguración de un nuevo parque en la ciudad",
+    "titulo": "Inauguraci\u00f3n de un nuevo parque en la ciudad",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Descripción sobre la inauguración de un nuevo parque en la ciudad",
+    "descripcion": "Descripci\u00f3n sobre la inauguraci\u00f3n de un nuevo parque en la ciudad",
     "fecha_creacion": "2024-08-15",
-    "texto": "Texto completo sobre la inauguración de un nuevo parque con áreas recreativas y espacios verdes",
-    "enlace_photo": "https://www.nature.org/content/dam/tnc/nature/en/photos/kittens.jpg"
+    "texto": "Texto completo sobre la inauguraci\u00f3n de un nuevo parque con \u00e1reas recreativas y espacios verdes",
+    "enlace_photo": "https://www.nature.org/content/dam/tnc/nature/en/photos/kittens.jpg",
+    "trending": false
   },
   {
     "id_noticias": 10,
@@ -114,82 +123,89 @@
       "id_clasificacion": 4,
       "nombre": "Ciencia"
     },
-    "descripcion": "Científicos descubren una nueva especie de dinosaurio en Argentina",
+    "descripcion": "Cient\u00edficos descubren una nueva especie de dinosaurio en Argentina",
     "fecha_creacion": "2024-08-13",
-    "texto": "Descripción detallada sobre el descubrimiento de un dinosaurio que vivió hace 70 millones de años en lo que hoy es Argentina",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/1b1.jpg"
+    "texto": "Descripci\u00f3n detallada sobre el descubrimiento de un dinosaurio que vivi\u00f3 hace 70 millones de a\u00f1os en lo que hoy es Argentina",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/1b1.jpg",
+    "trending": false
   },
   {
     "id_noticias": 11,
     "titulo": "Festival internacional de cine",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
     "descripcion": "El festival de cine anual atrae a cineastas de todo el mundo",
     "fecha_creacion": "2024-08-10",
-    "texto": "Descripción del festival internacional de cine que presenta nuevas películas y documentales",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+    "texto": "Descripci\u00f3n del festival internacional de cine que presenta nuevas pel\u00edculas y documentales",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg",
+    "trending": true
   },
   {
     "id_noticias": 12,
     "titulo": "Avances en la inteligencia artificial",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
     "descripcion": "Nuevos avances en inteligencia artificial prometen revolucionar la industria",
     "fecha_creacion": "2024-08-05",
-    "texto": "Descripción de los últimos avances en inteligencia artificial y su impacto en diferentes industrias",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/9j6.jpg"
+    "texto": "Descripci\u00f3n de los \u00faltimos avances en inteligencia artificial y su impacto en diferentes industrias",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/9j6.jpg",
+    "trending": false
   },
   {
     "id_noticias": 13,
-    "titulo": "Nuevo acuerdo comercial entre países",
+    "titulo": "Nuevo acuerdo comercial entre pa\u00edses",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "Países firman un nuevo acuerdo comercial para fomentar el intercambio económico.",
+    "descripcion": "Pa\u00edses firman un nuevo acuerdo comercial para fomentar el intercambio econ\u00f3mico.",
     "fecha_creacion": "2024-08-25",
-    "texto": "Detalles sobre el nuevo acuerdo comercial entre las naciones que busca mejorar la economía.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/2ri.jpg"
+    "texto": "Detalles sobre el nuevo acuerdo comercial entre las naciones que busca mejorar la econom\u00eda.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/2ri.jpg",
+    "trending": true
   },
   {
     "id_noticias": 14,
     "titulo": "Torneo de tenis en Wimbledon",
     "clasificacion": {
-      "id_clasificacion": 2,
+      "id_clasificacion": 9,
       "nombre": "Deportes"
     },
     "descripcion": "El torneo de tenis de Wimbledon llega a su fase final con grandes expectativas.",
     "fecha_creacion": "2024-07-28",
-    "texto": "Descripción de los partidos más emocionantes y los favoritos para ganar el torneo.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/5ft.jpg"
+    "texto": "Descripci\u00f3n de los partidos m\u00e1s emocionantes y los favoritos para ganar el torneo.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/5ft.jpg",
+    "trending": false
   },
   {
     "id_noticias": 15,
-    "titulo": "Conferencia mundial sobre cambio climático",
+    "titulo": "Conferencia mundial sobre cambio clim\u00e1tico",
     "clasificacion": {
       "id_clasificacion": 4,
       "nombre": "Ciencia"
     },
-    "descripcion": "Líderes mundiales se reúnen para discutir nuevas estrategias contra el cambio climático.",
+    "descripcion": "L\u00edderes mundiales se re\u00fanen para discutir nuevas estrategias contra el cambio clim\u00e1tico.",
     "fecha_creacion": "2024-06-30",
     "texto": "Resumen de los temas tratados en la conferencia y los acuerdos alcanzados.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/5gu.jpg"
+    "enlace_photo": "https://cdn2.thecatapi.com/images/5gu.jpg",
+    "trending": false
   },
   {
     "id_noticias": 16,
-    "titulo": "Festival de música en la playa",
+    "titulo": "Festival de m\u00fasica en la playa",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Un festival de música en la playa atrae a miles de asistentes.",
+    "descripcion": "Un festival de m\u00fasica en la playa atrae a miles de asistentes.",
     "fecha_creacion": "2024-07-10",
-    "texto": "Reseña del festival, con actuaciones destacadas y la vibrante atmósfera en la playa.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/7sn.jpg"
+    "texto": "Rese\u00f1a del festival, con actuaciones destacadas y la vibrante atm\u00f3sfera en la playa.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/7sn.jpg",
+    "trending": false
   },
   {
     "id_noticias": 17,
@@ -198,215 +214,232 @@
       "id_clasificacion": 4,
       "nombre": "Ciencia"
     },
-    "descripcion": "Astrónomos descubren un exoplaneta potencialmente habitable en una estrella cercana.",
+    "descripcion": "Astr\u00f3nomos descubren un exoplaneta potencialmente habitable en una estrella cercana.",
     "fecha_creacion": "2024-08-14",
-    "texto": "El exoplaneta, situado a 50 años luz, podría tener las condiciones necesarias para albergar vida.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/a61.jpg"
+    "texto": "El exoplaneta, situado a 50 a\u00f1os luz, podr\u00eda tener las condiciones necesarias para albergar vida.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/a61.jpg",
+    "trending": false
   },
   {
     "id_noticias": 18,
-    "titulo": "Nueva versión de sistema operativo",
+    "titulo": "Nueva versi\u00f3n de sistema operativo",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Se lanza una nueva versión del sistema operativo más popular del mundo.",
+    "descripcion": "Se lanza una nueva versi\u00f3n del sistema operativo m\u00e1s popular del mundo.",
     "fecha_creacion": "2024-07-20",
-    "texto": "La nueva versión incluye mejoras de seguridad, una interfaz renovada y nuevas aplicaciones.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/aep.jpg"
+    "texto": "La nueva versi\u00f3n incluye mejoras de seguridad, una interfaz renovada y nuevas aplicaciones.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/aep.jpg",
+    "trending": false
   },
   {
     "id_noticias": 19,
-    "titulo": "Recuperación de ecosistemas dañados",
+    "titulo": "Recuperaci\u00f3n de ecosistemas da\u00f1ados",
     "clasificacion": {
       "id_clasificacion": 4,
       "nombre": "Ciencia"
     },
-    "descripcion": "Un proyecto innovador trabaja en la recuperación de ecosistemas dañados por la actividad humana.",
+    "descripcion": "Un proyecto innovador trabaja en la recuperaci\u00f3n de ecosistemas da\u00f1ados por la actividad humana.",
     "fecha_creacion": "2024-08-01",
-    "texto": "El proyecto ha logrado restaurar áreas críticas, devolviendo la biodiversidad a la región.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/dkb.jpg"
+    "texto": "El proyecto ha logrado restaurar \u00e1reas cr\u00edticas, devolviendo la biodiversidad a la regi\u00f3n.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/dkb.jpg",
+    "trending": false
   },
   {
     "id_noticias": 20,
     "titulo": "Campeonato mundial de ajedrez",
     "clasificacion": {
-      "id_clasificacion": 2,
+      "id_clasificacion": 9,
       "nombre": "Deportes"
     },
     "descripcion": "El campeonato mundial de ajedrez enfrenta a los mejores jugadores del mundo.",
     "fecha_creacion": "2024-07-25",
-    "texto": "Reseña de las partidas más emocionantes y los jugadores que se perfilan como favoritos.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/dbc.jpg"
+    "texto": "Rese\u00f1a de las partidas m\u00e1s emocionantes y los jugadores que se perfilan como favoritos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/dbc.jpg",
+    "trending": false
   },
   {
     "id_noticias": 21,
     "titulo": "Nuevas medidas de seguridad en aeropuertos",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "Se implementan nuevas medidas de seguridad en aeropuertos para mejorar la protección de los pasajeros.",
+    "descripcion": "Se implementan nuevas medidas de seguridad en aeropuertos para mejorar la protecci\u00f3n de los pasajeros.",
     "fecha_creacion": "2024-08-02",
-    "texto": "Las nuevas medidas incluyen escáneres avanzados y controles más rigurosos.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/du8.jpg"
+    "texto": "Las nuevas medidas incluyen esc\u00e1neres avanzados y controles m\u00e1s rigurosos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/du8.jpg",
+    "trending": false
   },
   {
     "id_noticias": 22,
-    "titulo": "Inauguración de un centro de investigación en biotecnología",
+    "titulo": "Inauguraci\u00f3n de un centro de investigaci\u00f3n en biotecnolog\u00eda",
     "clasificacion": {
       "id_clasificacion": 4,
       "nombre": "Ciencia"
     },
-    "descripcion": "Se inaugura un nuevo centro de investigación dedicado a la biotecnología.",
+    "descripcion": "Se inaugura un nuevo centro de investigaci\u00f3n dedicado a la biotecnolog\u00eda.",
     "fecha_creacion": "2024-07-29",
-    "texto": "El centro se enfocará en desarrollar nuevas terapias y tecnologías médicas.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/e1q.jpg"
+    "texto": "El centro se enfocar\u00e1 en desarrollar nuevas terapias y tecnolog\u00edas m\u00e9dicas.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/e1q.jpg",
+    "trending": false
   },
   {
     "id_noticias": 23,
-    "titulo": "Maratón anual de la ciudad",
+    "titulo": "Marat\u00f3n anual de la ciudad",
     "clasificacion": {
-      "id_clasificacion": 2,
+      "id_clasificacion": 9,
       "nombre": "Deportes"
     },
-    "descripcion": "Miles de corredores participan en el maratón anual de la ciudad.",
+    "descripcion": "Miles de corredores participan en el marat\u00f3n anual de la ciudad.",
     "fecha_creacion": "2024-08-18",
-    "texto": "El evento contó con la participación de corredores internacionales y locales.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/hh6.jpg"
+    "texto": "El evento cont\u00f3 con la participaci\u00f3n de corredores internacionales y locales.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/hh6.jpg",
+    "trending": false
   },
   {
     "id_noticias": 24,
     "titulo": "Encuentro de escritores latinoamericanos",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Escritores de toda Latinoamérica se reúnen para discutir literatura y nuevas tendencias.",
+    "descripcion": "Escritores de toda Latinoam\u00e9rica se re\u00fanen para discutir literatura y nuevas tendencias.",
     "fecha_creacion": "2024-08-12",
-    "texto": "El encuentro contó con conferencias, talleres y lecturas de obras inéditas.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/kai.jpg"
+    "texto": "El encuentro cont\u00f3 con conferencias, talleres y lecturas de obras in\u00e9ditas.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/kai.jpg",
+    "trending": false
   },
   {
     "id_noticias": 25,
-    "titulo": "Nuevas políticas de salud pública",
+    "titulo": "Nuevas pol\u00edticas de salud p\u00fablica",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "El gobierno anuncia nuevas políticas para mejorar la salud pública en zonas rurales.",
+    "descripcion": "El gobierno anuncia nuevas pol\u00edticas para mejorar la salud p\u00fablica en zonas rurales.",
     "fecha_creacion": "2024-08-07",
-    "texto": "Las políticas se enfocan en aumentar el acceso a servicios de salud y educación sanitaria.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/mt1.jpg"
+    "texto": "Las pol\u00edticas se enfocan en aumentar el acceso a servicios de salud y educaci\u00f3n sanitaria.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/mt1.jpg",
+    "trending": false
   },
   {
     "id_noticias": 26,
-    "titulo": "Expansión de energías renovables",
+    "titulo": "Expansi\u00f3n de energ\u00edas renovables",
     "clasificacion": {
       "id_clasificacion": 4,
       "nombre": "Ciencia"
     },
-    "descripcion": "Un país líder en energías renovables anuncia la expansión de sus proyectos eólicos y solares.",
+    "descripcion": "Un pa\u00eds l\u00edder en energ\u00edas renovables anuncia la expansi\u00f3n de sus proyectos e\u00f3licos y solares.",
     "fecha_creacion": "2024-07-30",
-    "texto": "Los nuevos proyectos buscan aumentar la capacidad de generación de energía limpia.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/n3t.jpg"
+    "texto": "Los nuevos proyectos buscan aumentar la capacidad de generaci\u00f3n de energ\u00eda limpia.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/n3t.jpg",
+    "trending": false
   },
-
   {
     "id_noticias": 27,
-    "titulo": "Nueva película de ciencia ficción",
+    "titulo": "Nueva pel\u00edcula de ciencia ficci\u00f3n",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Una esperada película de ciencia ficción se estrena en cines de todo el mundo.",
+    "descripcion": "Una esperada pel\u00edcula de ciencia ficci\u00f3n se estrena en cines de todo el mundo.",
     "fecha_creacion": "2024-08-24",
-    "texto": "La película ha generado grandes expectativas por sus efectos especiales y trama innovadora.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/ndd.jpg"
+    "texto": "La pel\u00edcula ha generado grandes expectativas por sus efectos especiales y trama innovadora.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/ndd.jpg",
+    "trending": false
   },
   {
     "id_noticias": 28,
-    "titulo": "Reformas educativas en el país",
+    "titulo": "Reformas educativas en el pa\u00eds",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
     "descripcion": "El gobierno presenta un plan de reformas educativas para mejorar la calidad del sistema educativo.",
     "fecha_creacion": "2024-08-05",
-    "texto": "Las reformas incluyen cambios en el currículo escolar y nuevas políticas de formación docente.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/4q4.jpg"
+    "texto": "Las reformas incluyen cambios en el curr\u00edculo escolar y nuevas pol\u00edticas de formaci\u00f3n docente.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/4q4.jpg",
+    "trending": false
   },
   {
     "id_noticias": 29,
-    "titulo": "Exposición de arte digital",
+    "titulo": "Exposici\u00f3n de arte digital",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Se lleva a cabo una innovadora exposición de arte digital con participación de artistas internacionales.",
+    "descripcion": "Se lleva a cabo una innovadora exposici\u00f3n de arte digital con participaci\u00f3n de artistas internacionales.",
     "fecha_creacion": "2024-08-22",
-    "texto": "La exposición presenta obras interactivas y experiencias inmersivas usando tecnología de realidad aumentada.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/e5x.jpg"
+    "texto": "La exposici\u00f3n presenta obras interactivas y experiencias inmersivas usando tecnolog\u00eda de realidad aumentada.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/e5x.jpg",
+    "trending": false
   },
   {
     "id_noticias": 30,
-    "titulo": "Innovación en transporte urbano",
+    "titulo": "Innovaci\u00f3n en transporte urbano",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Una ciudad lanza un nuevo sistema de transporte urbano basado en vehículos eléctricos autónomos.",
+    "descripcion": "Una ciudad lanza un nuevo sistema de transporte urbano basado en veh\u00edculos el\u00e9ctricos aut\u00f3nomos.",
     "fecha_creacion": "2024-08-09",
-    "texto": "El nuevo sistema busca reducir la congestión y las emisiones contaminantes en el centro urbano.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/fgh.jpg"
+    "texto": "El nuevo sistema busca reducir la congesti\u00f3n y las emisiones contaminantes en el centro urbano.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/fgh.jpg",
+    "trending": false
   },
   {
     "id_noticias": 31,
-    "titulo": "Competencia internacional de robótica",
+    "titulo": "Competencia internacional de rob\u00f3tica",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Se celebra una competencia internacional de robótica con participación de equipos de todo el mundo.",
+    "descripcion": "Se celebra una competencia internacional de rob\u00f3tica con participaci\u00f3n de equipos de todo el mundo.",
     "fecha_creacion": "2024-08-11",
-    "texto": "Los equipos muestran sus últimos avances en robótica y tecnología inteligente en un evento global.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/g58.jpg"
+    "texto": "Los equipos muestran sus \u00faltimos avances en rob\u00f3tica y tecnolog\u00eda inteligente en un evento global.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/g58.jpg",
+    "trending": false
   },
   {
     "id_noticias": 32,
-    "titulo": "Nueva política de protección ambiental",
+    "titulo": "Nueva pol\u00edtica de protecci\u00f3n ambiental",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "El gobierno introduce una nueva política para proteger áreas naturales y promover la sostenibilidad.",
+    "descripcion": "El gobierno introduce una nueva pol\u00edtica para proteger \u00e1reas naturales y promover la sostenibilidad.",
     "fecha_creacion": "2024-08-16",
-    "texto": "La política incluye la creación de nuevas reservas naturales y regulaciones más estrictas para la industria.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/j2d.jpg"
+    "texto": "La pol\u00edtica incluye la creaci\u00f3n de nuevas reservas naturales y regulaciones m\u00e1s estrictas para la industria.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/j2d.jpg",
+    "trending": false
   },
   {
     "id_noticias": 33,
-    "titulo": "Festival gastronómico internacional",
+    "titulo": "Festival gastron\u00f3mico internacional",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Un festival gastronómico reúne chefs y alimentos de diversas partes del mundo.",
+    "descripcion": "Un festival gastron\u00f3mico re\u00fane chefs y alimentos de diversas partes del mundo.",
     "fecha_creacion": "2024-08-23",
     "texto": "El festival ofrece una variedad de platos internacionales y talleres culinarios para los asistentes.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/k9l.jpg"
+    "enlace_photo": "https://cdn2.thecatapi.com/images/k9l.jpg",
+    "trending": false
   },
   {
     "id_noticias": 34,
     "titulo": "Avances en inteligencia artificial",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Se presentan avances significativos en inteligencia artificial en una conferencia de tecnología.",
+    "descripcion": "Se presentan avances significativos en inteligencia artificial en una conferencia de tecnolog\u00eda.",
     "fecha_creacion": "2024-08-03",
-    "texto": "Los investigadores discuten nuevas aplicaciones y desafíos en el campo de la inteligencia artificial.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/l3o.jpg"
+    "texto": "Los investigadores discuten nuevas aplicaciones y desaf\u00edos en el campo de la inteligencia artificial.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/l3o.jpg",
+    "trending": false
   },
   {
     "id_noticias": 35,
@@ -418,115 +451,125 @@
     "descripcion": "Un laboratorio anuncia el desarrollo de nuevas vacunas contra enfermedades infecciosas.",
     "fecha_creacion": "2024-08-19",
     "texto": "Las nuevas vacunas prometen una mayor eficacia y seguridad para combatir enfermedades globales.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/5er.jpg"
+    "enlace_photo": "https://cdn2.thecatapi.com/images/5er.jpg",
+    "trending": false
   },
   {
     "id_noticias": 36,
-    "titulo": "Inauguración de un nuevo estadio deportivo",
+    "titulo": "Inauguraci\u00f3n de un nuevo estadio deportivo",
     "clasificacion": {
-      "id_clasificacion": 2,
+      "id_clasificacion": 9,
       "nombre": "Deportes"
     },
-    "descripcion": "Se inaugura un nuevo estadio deportivo con instalaciones de última generación.",
+    "descripcion": "Se inaugura un nuevo estadio deportivo con instalaciones de \u00faltima generaci\u00f3n.",
     "fecha_creacion": "2024-08-06",
-    "texto": "El estadio será sede de eventos deportivos importantes y ofrecerá una experiencia mejorada a los espectadores.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/7ip.jpg"
+    "texto": "El estadio ser\u00e1 sede de eventos deportivos importantes y ofrecer\u00e1 una experiencia mejorada a los espectadores.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/7ip.jpg",
+    "trending": false
   },
   {
     "id_noticias": 37,
-    "titulo": "Nueva tecnología de realidad virtual",
+    "titulo": "Nueva tecnolog\u00eda de realidad virtual",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Una empresa presenta una nueva tecnología de realidad virtual con aplicaciones innovadoras.",
+    "descripcion": "Una empresa presenta una nueva tecnolog\u00eda de realidad virtual con aplicaciones innovadoras.",
     "fecha_creacion": "2024-08-17",
-    "texto": "La tecnología ofrece una experiencia inmersiva mejorada para videojuegos, educación y entrenamiento.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/9ml.jpg"
+    "texto": "La tecnolog\u00eda ofrece una experiencia inmersiva mejorada para videojuegos, educaci\u00f3n y entrenamiento.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/9ml.jpg",
+    "trending": false
   },
   {
     "id_noticias": 38,
-    "titulo": "Conferencia sobre economía digital",
+    "titulo": "Conferencia sobre econom\u00eda digital",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "Expertos se reúnen para discutir el futuro de la economía digital y su impacto global.",
+    "descripcion": "Expertos se re\u00fanen para discutir el futuro de la econom\u00eda digital y su impacto global.",
     "fecha_creacion": "2024-08-21",
-    "texto": "La conferencia abarca temas como criptomonedas, comercio electrónico y seguridad digital.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/a6d.jpg"
+    "texto": "La conferencia abarca temas como criptomonedas, comercio electr\u00f3nico y seguridad digital.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/a6d.jpg",
+    "trending": false
   },
   {
     "id_noticias": 39,
-    "titulo": "Nueva ley de protección de datos",
+    "titulo": "Nueva ley de protecci\u00f3n de datos",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "Se aprueba una nueva ley para fortalecer la protección de datos personales en línea.",
+    "descripcion": "Se aprueba una nueva ley para fortalecer la protecci\u00f3n de datos personales en l\u00ednea.",
     "fecha_creacion": "2024-08-26",
-    "texto": "La ley establece nuevas regulaciones para la recopilación y almacenamiento de datos personales.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/b5c.jpg"
+    "texto": "La ley establece nuevas regulaciones para la recopilaci\u00f3n y almacenamiento de datos personales.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/b5c.jpg",
+    "trending": true
   },
   {
     "id_noticias": 40,
-    "titulo": "Desafíos del cambio climático",
+    "titulo": "Desaf\u00edos del cambio clim\u00e1tico",
     "clasificacion": {
       "id_clasificacion": 4,
       "nombre": "Ciencia"
     },
-    "descripcion": "Investigadores discuten los desafíos y soluciones para mitigar el impacto del cambio climático.",
+    "descripcion": "Investigadores discuten los desaf\u00edos y soluciones para mitigar el impacto del cambio clim\u00e1tico.",
     "fecha_creacion": "2024-08-08",
-    "texto": "El estudio destaca la necesidad de acción global y colaboración entre países para enfrentar el cambio climático.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/c1d.jpg"
+    "texto": "El estudio destaca la necesidad de acci\u00f3n global y colaboraci\u00f3n entre pa\u00edses para enfrentar el cambio clim\u00e1tico.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/c1d.jpg",
+    "trending": false
   },
   {
     "id_noticias": 41,
-    "titulo": "Nuevo avance en energía solar",
+    "titulo": "Nuevo avance en energ\u00eda solar",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Científicos presentan un avance en la tecnología de paneles solares con mayor eficiencia.",
+    "descripcion": "Cient\u00edficos presentan un avance en la tecnolog\u00eda de paneles solares con mayor eficiencia.",
     "fecha_creacion": "2024-08-10",
-    "texto": "El nuevo diseño de paneles solares ofrece una mayor conversión de energía solar en electricidad.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/d1k.jpg"
+    "texto": "El nuevo dise\u00f1o de paneles solares ofrece una mayor conversi\u00f3n de energ\u00eda solar en electricidad.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/d1k.jpg",
+    "trending": false
   },
   {
     "id_noticias": 42,
-    "titulo": "Feria internacional de tecnología",
+    "titulo": "Feria internacional de tecnolog\u00eda",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Se lleva a cabo una feria internacional para mostrar las últimas innovaciones tecnológicas.",
+    "descripcion": "Se lleva a cabo una feria internacional para mostrar las \u00faltimas innovaciones tecnol\u00f3gicas.",
     "fecha_creacion": "2024-08-13",
-    "texto": "La feria reúne a empresas de tecnología y presenta productos innovadores en software y hardware.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/d2k.jpg"
+    "texto": "La feria re\u00fane a empresas de tecnolog\u00eda y presenta productos innovadores en software y hardware.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/d2k.jpg",
+    "trending": false
   },
   {
     "id_noticias": 43,
-    "titulo": "Encuentro de líderes empresariales",
+    "titulo": "Encuentro de l\u00edderes empresariales",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "Líderes empresariales se reúnen para discutir estrategias para el crecimiento económico global.",
+    "descripcion": "L\u00edderes empresariales se re\u00fanen para discutir estrategias para el crecimiento econ\u00f3mico global.",
     "fecha_creacion": "2024-08-14",
-    "texto": "El encuentro aborda temas de inversión, comercio y políticas económicas a nivel internacional.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/e3l.jpg"
+    "texto": "El encuentro aborda temas de inversi\u00f3n, comercio y pol\u00edticas econ\u00f3micas a nivel internacional.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/e3l.jpg",
+    "trending": false
   },
   {
     "id_noticias": 44,
     "titulo": "Lanzamiento de nuevo videojuego",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Un esperado videojuego de aventuras es lanzado con gran éxito de ventas.",
+    "descripcion": "Un esperado videojuego de aventuras es lanzado con gran \u00e9xito de ventas.",
     "fecha_creacion": "2024-08-12",
-    "texto": "El videojuego ha sido aclamado por sus gráficos impresionantes y su narrativa envolvente.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/f6y.jpg"
+    "texto": "El videojuego ha sido aclamado por sus gr\u00e1ficos impresionantes y su narrativa envolvente.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/f6y.jpg",
+    "trending": false
   },
   {
     "id_noticias": 45,
@@ -535,69 +578,1024 @@
       "id_clasificacion": 4,
       "nombre": "Ciencia"
     },
-    "descripcion": "Nuevos avances en medicina regenerativa prometen tratamientos más efectivos para lesiones y enfermedades.",
+    "descripcion": "Nuevos avances en medicina regenerativa prometen tratamientos m\u00e1s efectivos para lesiones y enfermedades.",
     "fecha_creacion": "2024-08-15",
-    "texto": "Investigaciones recientes muestran prometedoras técnicas de regeneración celular y tejido.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/h7d.jpg"
+    "texto": "Investigaciones recientes muestran prometedoras t\u00e9cnicas de regeneraci\u00f3n celular y tejido.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/h7d.jpg",
+    "trending": false
   },
   {
     "id_noticias": 46,
     "titulo": "Festival de cine independiente",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Un festival de cine independiente presenta una selección de películas innovadoras y creativas.",
+    "descripcion": "Un festival de cine independiente presenta una selecci\u00f3n de pel\u00edculas innovadoras y creativas.",
     "fecha_creacion": "2024-08-20",
     "texto": "El festival destaca obras de cineastas emergentes y ofrece una plataforma para nuevos talentos.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/i2l.jpg"
+    "enlace_photo": "https://cdn2.thecatapi.com/images/i2l.jpg",
+    "trending": false
   },
   {
     "id_noticias": 47,
-    "titulo": "Investigación sobre nuevas energías",
+    "titulo": "Investigaci\u00f3n sobre nuevas energ\u00edas",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Científicos presentan resultados de una investigación sobre nuevas fuentes de energía sostenible.",
+    "descripcion": "Cient\u00edficos presentan resultados de una investigaci\u00f3n sobre nuevas fuentes de energ\u00eda sostenible.",
     "fecha_creacion": "2024-08-18",
-    "texto": "La investigación explora innovadoras alternativas energéticas y su potencial para el futuro.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/j5a.jpg"
+    "texto": "La investigaci\u00f3n explora innovadoras alternativas energ\u00e9ticas y su potencial para el futuro.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/j5a.jpg",
+    "trending": false
   },
   {
     "id_noticias": 48,
-    "titulo": "Nuevo parque temático inaugurado",
+    "titulo": "Nuevo parque tem\u00e1tico inaugurado",
     "clasificacion": {
-      "id_clasificacion": 3,
+      "id_clasificacion": 6,
       "nombre": "Cultura"
     },
-    "descripcion": "Un nuevo parque temático abre sus puertas con atracciones y espectáculos innovadores.",
+    "descripcion": "Un nuevo parque tem\u00e1tico abre sus puertas con atracciones y espect\u00e1culos innovadores.",
     "fecha_creacion": "2024-08-07",
-    "texto": "El parque ofrece una variedad de experiencias para toda la familia, desde montañas rusas hasta espectáculos en vivo.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/k4l.jpg"
+    "texto": "El parque ofrece una variedad de experiencias para toda la familia, desde monta\u00f1as rusas hasta espect\u00e1culos en vivo.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/k4l.jpg",
+    "trending": false
   },
   {
     "id_noticias": 49,
-    "titulo": "Nueva aplicación de salud y bienestar",
+    "titulo": "Nueva aplicaci\u00f3n de salud y bienestar",
     "clasificacion": {
-      "id_clasificacion": 4,
-      "nombre": "Tecnología"
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
     },
-    "descripcion": "Se lanza una nueva aplicación para ayudar a los usuarios a gestionar su salud y bienestar de manera integral.",
+    "descripcion": "Se lanza una nueva aplicaci\u00f3n para ayudar a los usuarios a gestionar su salud y bienestar de manera integral.",
     "fecha_creacion": "2024-08-25",
-    "texto": "La aplicación ofrece herramientas para el seguimiento de la salud, consejos de bienestar y más.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/l1m.jpg"
+    "texto": "La aplicaci\u00f3n ofrece herramientas para el seguimiento de la salud, consejos de bienestar y m\u00e1s.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/l1m.jpg",
+    "trending": true
   },
   {
     "id_noticias": 50,
     "titulo": "Conferencia sobre el futuro del trabajo",
     "clasificacion": {
-      "id_clasificacion": 1,
-      "nombre": "Política"
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
     },
-    "descripcion": "Expertos discuten el impacto de la tecnología en el futuro del trabajo y las nuevas habilidades requeridas.",
+    "descripcion": "Expertos discuten el impacto de la tecnolog\u00eda en el futuro del trabajo y las nuevas habilidades requeridas.",
     "fecha_creacion": "2024-08-27",
-    "texto": "La conferencia aborda temas como la automatización, el teletrabajo y la educación continua.",
-    "enlace_photo": "https://cdn2.thecatapi.com/images/m2n.jpg"
+    "texto": "La conferencia aborda temas como la automatizaci\u00f3n, el teletrabajo y la educaci\u00f3n continua.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/m2n.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 55,
+    "titulo": "Avance en la lucha contra el cambio clim\u00e1tico",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Descubrimientos recientes ofrecen nuevas esperanzas para combatir el cambio clim\u00e1tico.",
+    "fecha_creacion": "2024-08-24",
+    "texto": "Un equipo de cient\u00edficos ha desarrollado una nueva tecnolog\u00eda para capturar y almacenar di\u00f3xido de carbono de manera m\u00e1s eficiente.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 56,
+    "titulo": "Aumento de las tasas de inflaci\u00f3n global",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "Las tasas de inflaci\u00f3n han mostrado un aumento significativo en varios pa\u00edses.",
+    "fecha_creacion": "2024-08-25",
+    "texto": "Expertos en econom\u00eda advierten sobre el impacto de las tasas de inflaci\u00f3n crecientes en los mercados internacionales y las econom\u00edas locales.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 57,
+    "titulo": "Avances tecnol\u00f3gicos en la inteligencia artificial",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "Nuevas innovaciones en el campo de la inteligencia artificial est\u00e1n transformando diversas industrias.",
+    "fecha_creacion": "2024-08-26",
+    "texto": "Las \u00faltimas innovaciones en IA prometen revolucionar sectores como la medicina, la educaci\u00f3n y el transporte.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/stu.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 58,
+    "titulo": "Nueva pel\u00edcula gana premios en festivales internacionales",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "Una nueva pel\u00edcula ha sido aclamada en varios festivales de cine internacionales.",
+    "fecha_creacion": "2024-08-27",
+    "texto": "La pel\u00edcula, dirigida por un joven cineasta, ha recibido m\u00faltiples premios y elogios por su innovadora narrativa y direcci\u00f3n.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/tuv.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 59,
+    "titulo": "Reformas en el sistema educativo nacional",
+    "clasificacion": {
+      "id_clasificacion": 2,
+      "nombre": "Pol\u00edtica"
+    },
+    "descripcion": "El gobierno anuncia reformas significativas en el sistema educativo.",
+    "fecha_creacion": "2024-08-28",
+    "texto": "Las reformas incluyen cambios en el curr\u00edculo, financiamiento y metodolog\u00edas de ense\u00f1anza para mejorar la calidad educativa.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 60,
+    "titulo": "Innovaciones en tratamientos m\u00e9dicos para enfermedades cr\u00f3nicas",
+    "clasificacion": {
+      "id_clasificacion": 8,
+      "nombre": "Salud"
+    },
+    "descripcion": "Nuevos tratamientos est\u00e1n cambiando la forma en que se manejan las enfermedades cr\u00f3nicas.",
+    "fecha_creacion": "2024-08-29",
+    "texto": "Investigaciones recientes han llevado al desarrollo de terapias m\u00e1s efectivas para enfermedades cr\u00f3nicas como la diabetes y la hipertensi\u00f3n.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 61,
+    "titulo": "Tendencias en la moda para la pr\u00f3xima temporada",
+    "clasificacion": {
+      "id_clasificacion": 6,
+      "nombre": "Cultura"
+    },
+    "descripcion": "Las \u00faltimas tendencias en moda se est\u00e1n perfilando para la pr\u00f3xima temporada.",
+    "fecha_creacion": "2024-08-30",
+    "texto": "Dise\u00f1adores de todo el mundo presentan sus colecciones para la pr\u00f3xima temporada, con un enfoque en sostenibilidad y creatividad.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/stu.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 62,
+    "titulo": "El impacto de los videojuegos en la salud mental",
+    "clasificacion": {
+      "id_clasificacion": 8,
+      "nombre": "Salud"
+    },
+    "descripcion": "Un nuevo estudio investiga c\u00f3mo los videojuegos afectan la salud mental de los jugadores.",
+    "fecha_creacion": "2024-08-31",
+    "texto": "El estudio revela tanto efectos positivos como negativos de los videojuegos en la salud mental, destacando la importancia del equilibrio y el uso responsable.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 63,
+    "titulo": "Tendencias en el mercado de criptomonedas",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "El mercado de criptomonedas est\u00e1 mostrando nuevas tendencias y desarrollos.",
+    "fecha_creacion": "2024-09-01",
+    "texto": "Los analistas est\u00e1n observando un cambio en las tendencias del mercado de criptomonedas, con un aumento en la adopci\u00f3n institucional y nuevos desarrollos tecnol\u00f3gicos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 64,
+    "titulo": "Descubrimientos arqueol\u00f3gicos en una antigua ciudad perdida",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Arque\u00f3logos descubren una ciudad antigua que se cre\u00eda perdida.",
+    "fecha_creacion": "2024-09-02",
+    "texto": "El descubrimiento ofrece nuevas perspectivas sobre civilizaciones antiguas y sus formas de vida, aportando valiosa informaci\u00f3n hist\u00f3rica.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 65,
+    "titulo": "Nuevas regulaciones para el uso de drones en espacios p\u00fablicos",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "El gobierno implementa nuevas regulaciones para el uso de drones en espacios p\u00fablicos.",
+    "fecha_creacion": "2024-09-03",
+    "texto": "Las nuevas regulaciones buscan mejorar la seguridad y privacidad en el uso de drones, estableciendo normas m\u00e1s estrictas para su operaci\u00f3n.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/tuv.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 66,
+    "titulo": "La influencia de la cultura pop en la educaci\u00f3n moderna",
+    "clasificacion": {
+      "id_clasificacion": 6,
+      "nombre": "Cultura"
+    },
+    "descripcion": "C\u00f3mo la cultura pop est\u00e1 moldeando las metodolog\u00edas educativas en la actualidad.",
+    "fecha_creacion": "2024-09-04",
+    "texto": "Las instituciones educativas est\u00e1n incorporando elementos de la cultura pop en sus curr\u00edculos para hacer el aprendizaje m\u00e1s atractivo y relevante para los estudiantes.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 55,
+    "titulo": "Avance en la lucha contra el cambio clim\u00e1tico",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Descubrimientos recientes ofrecen nuevas esperanzas para combatir el cambio clim\u00e1tico.",
+    "fecha_creacion": "2024-08-24",
+    "texto": "Un equipo de cient\u00edficos ha desarrollado una nueva tecnolog\u00eda para capturar y almacenar di\u00f3xido de carbono de manera m\u00e1s eficiente.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 56,
+    "titulo": "Descubrimientos sobre el origen del universo",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Investigaciones recientes proporcionan nuevas teor\u00edas sobre el origen del universo.",
+    "fecha_creacion": "2024-08-25",
+    "texto": "Nuevas simulaciones computacionales y observaciones astron\u00f3micas ofrecen perspectivas revolucionarias sobre el Big Bang.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 57,
+    "titulo": "Avances en la tecnolog\u00eda de edici\u00f3n gen\u00e9tica",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Se presentan nuevos m\u00e9todos en la edici\u00f3n gen\u00e9tica que podr\u00edan revolucionar la medicina.",
+    "fecha_creacion": "2024-08-26",
+    "texto": "Los cient\u00edficos han desarrollado t\u00e9cnicas m\u00e1s precisas y seguras para la edici\u00f3n de genes, con potencial para tratar enfermedades hereditarias.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/def.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 58,
+    "titulo": "Estudio revela nuevos detalles sobre el cambio clim\u00e1tico",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Un nuevo estudio proporciona datos cruciales sobre los efectos del cambio clim\u00e1tico en el ecosistema global.",
+    "fecha_creacion": "2024-08-27",
+    "texto": "Investigaciones recientes detallan c\u00f3mo las temperaturas extremas afectan a la biodiversidad y los ecosistemas marinos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/ghi.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 59,
+    "titulo": "Nuevo tratamiento contra el c\u00e1ncer",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Un innovador tratamiento muestra resultados prometedores en la lucha contra el c\u00e1ncer.",
+    "fecha_creacion": "2024-08-28",
+    "texto": "Ensayos cl\u00ednicos recientes han demostrado que un nuevo tratamiento es efectivo en reducir tumores en pacientes con c\u00e1ncer avanzado.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/jkl.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 60,
+    "titulo": "Desarrollo de materiales biodegradables",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Investigadores desarrollan nuevos materiales biodegradables para reducir la contaminaci\u00f3n.",
+    "fecha_creacion": "2024-08-29",
+    "texto": "Estos materiales tienen aplicaciones en envases y productos desechables, contribuyendo a la sostenibilidad.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/mno.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 61,
+    "titulo": "Hallazgos sobre el sistema inmunol\u00f3gico",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Nuevas investigaciones revelan detalles sobre c\u00f3mo el sistema inmunol\u00f3gico combate enfermedades.",
+    "fecha_creacion": "2024-08-30",
+    "texto": "Los cient\u00edficos han descubierto nuevos mecanismos por los cuales el sistema inmunol\u00f3gico identifica y elimina pat\u00f3genos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/pqr.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 62,
+    "titulo": "Avances en la rob\u00f3tica para la exploraci\u00f3n espacial",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "La rob\u00f3tica espacial da un gran paso adelante con nuevos robots para explorar otros planetas.",
+    "fecha_creacion": "2024-09-01",
+    "texto": "Nuevos robots dise\u00f1ados para soportar condiciones extremas est\u00e1n listos para ser enviados a Marte y otras lunas.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/stu.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 63,
+    "titulo": "Nuevas t\u00e9cnicas de desalinizaci\u00f3n de agua",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "T\u00e9cnicas avanzadas de desalinizaci\u00f3n prometen soluciones para la escasez de agua en regiones \u00e1ridas.",
+    "fecha_creacion": "2024-09-02",
+    "texto": "La tecnolog\u00eda de desalinizaci\u00f3n ha avanzado significativamente, ofreciendo soluciones m\u00e1s econ\u00f3micas y eficientes.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/vwx.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 64,
+    "titulo": "Estudio sobre los efectos de la luz azul en la salud",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Investigaciones recientes exploran c\u00f3mo la exposici\u00f3n a la luz azul afecta la salud ocular y el sue\u00f1o.",
+    "fecha_creacion": "2024-09-03",
+    "texto": "El estudio revela que la luz azul emitida por dispositivos electr\u00f3nicos puede alterar el ritmo circadiano y la calidad del sue\u00f1o.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 65,
+    "titulo": "Nuevas fronteras en la f\u00edsica cu\u00e1ntica",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Descubrimientos recientes en f\u00edsica cu\u00e1ntica abren nuevas posibilidades para la computaci\u00f3n cu\u00e1ntica.",
+    "fecha_creacion": "2024-09-04",
+    "texto": "Investigaciones avanzadas en f\u00edsica cu\u00e1ntica podr\u00edan revolucionar la tecnolog\u00eda computacional en el futuro cercano.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 66,
+    "titulo": "Aumento en el precio del petr\u00f3leo",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "Los precios del petr\u00f3leo han mostrado un aumento significativo debido a la inestabilidad geopol\u00edtica.",
+    "fecha_creacion": "2024-08-24",
+    "texto": "El aumento en el precio del petr\u00f3leo afecta a la econom\u00eda global, incrementando los costos de transporte y producci\u00f3n.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 67,
+    "titulo": "Tendencias en el mercado inmobiliario",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "El mercado inmobiliario muestra nuevas tendencias con un aumento en la demanda de viviendas sostenibles.",
+    "fecha_creacion": "2024-08-25",
+    "texto": "El inter\u00e9s por viviendas ecol\u00f3gicas y sostenibles est\u00e1 en aumento, lo que influye en el mercado inmobiliario.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 68,
+    "titulo": "Nuevas pol\u00edticas fiscales para estimular el crecimiento",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "El gobierno implementa nuevas pol\u00edticas fiscales para fomentar el crecimiento econ\u00f3mico.",
+    "fecha_creacion": "2024-08-26",
+    "texto": "Las nuevas pol\u00edticas incluyen recortes de impuestos y subsidios para peque\u00f1as empresas con el objetivo de estimular la econom\u00eda.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 69,
+    "titulo": "Impacto de las tasas de inter\u00e9s en la econom\u00eda",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "Las tasas de inter\u00e9s est\u00e1n teniendo un impacto significativo en la econom\u00eda global.",
+    "fecha_creacion": "2024-08-27",
+    "texto": "Expertos analizan c\u00f3mo las recientes subidas de las tasas de inter\u00e9s afectan la inversi\u00f3n y el consumo.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 70,
+    "titulo": "Proyectos de infraestructura en Am\u00e9rica Latina",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "Am\u00e9rica Latina lanza nuevos proyectos de infraestructura para mejorar la conectividad y el crecimiento econ\u00f3mico.",
+    "fecha_creacion": "2024-08-28",
+    "texto": "Los proyectos incluyen la construcci\u00f3n de carreteras, puentes y sistemas de transporte p\u00fablico para impulsar la econom\u00eda regional.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 71,
+    "titulo": "El futuro de las criptomonedas en la econom\u00eda global",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "Las criptomonedas est\u00e1n ganando influencia en la econom\u00eda global y en las decisiones financieras.",
+    "fecha_creacion": "2024-08-29",
+    "texto": "La adopci\u00f3n creciente de criptomonedas por parte de instituciones financieras y gobiernos est\u00e1 redefiniendo el panorama econ\u00f3mico.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 72,
+    "titulo": "Cambios en la regulaci\u00f3n bancaria internacional",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "Se implementan cambios importantes en la regulaci\u00f3n bancaria a nivel internacional para mejorar la estabilidad financiera.",
+    "fecha_creacion": "2024-08-30",
+    "texto": "Las nuevas regulaciones buscan prevenir crisis financieras y promover una mayor transparencia en el sector bancario.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 73,
+    "titulo": "Evoluci\u00f3n de los mercados emergentes",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "Los mercados emergentes est\u00e1n experimentando un r\u00e1pido crecimiento econ\u00f3mico y desarrollo.",
+    "fecha_creacion": "2024-09-01",
+    "texto": "Los mercados emergentes est\u00e1n atrayendo inversiones significativas y mostrando un desarrollo econ\u00f3mico acelerado.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 74,
+    "titulo": "Impacto del comercio electr\u00f3nico en el retail tradicional",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "El crecimiento del comercio electr\u00f3nico est\u00e1 afectando al sector retail tradicional de manera significativa.",
+    "fecha_creacion": "2024-09-02",
+    "texto": "Las empresas minoristas tradicionales est\u00e1n adaptando sus estrategias para competir con el auge del comercio electr\u00f3nico.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 75,
+    "titulo": "El impacto de la inteligencia artificial en los mercados laborales",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "La inteligencia artificial est\u00e1 transformando el panorama de los mercados laborales y la naturaleza del trabajo.",
+    "fecha_creacion": "2024-09-03",
+    "texto": "La automatizaci\u00f3n y la inteligencia artificial est\u00e1n cambiando las habilidades requeridas en el mercado laboral y creando nuevas oportunidades.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 76,
+    "titulo": "Tendencias en la inversi\u00f3n sostenible",
+    "clasificacion": {
+      "id_clasificacion": 5,
+      "nombre": "Econom\u00eda"
+    },
+    "descripcion": "Las inversiones sostenibles est\u00e1n ganando popularidad y est\u00e1n configurando el futuro del mercado financiero.",
+    "fecha_creacion": "2024-09-04",
+    "texto": "Los inversores est\u00e1n priorizando oportunidades que promuevan la sostenibilidad y la responsabilidad ambiental.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 77,
+    "titulo": "Innovaciones en el campo de la realidad aumentada",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "Nuevas tecnolog\u00edas de realidad aumentada est\u00e1n revolucionando el sector del entretenimiento y la educaci\u00f3n.",
+    "fecha_creacion": "2024-08-24",
+    "texto": "Los avances en realidad aumentada ofrecen experiencias inmersivas mejoradas en aplicaciones educativas y de entretenimiento.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 78,
+    "titulo": "Avances en la tecnolog\u00eda de bater\u00edas",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "Se desarrollan nuevas tecnolog\u00edas de bater\u00edas que podr\u00edan mejorar significativamente la duraci\u00f3n y eficiencia de los dispositivos electr\u00f3nicos.",
+    "fecha_creacion": "2024-08-25",
+    "texto": "Las nuevas bater\u00edas ofrecen mayor capacidad de almacenamiento y tiempos de carga m\u00e1s r\u00e1pidos, revolucionando el mercado de los dispositivos electr\u00f3nicos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 79,
+    "titulo": "Seguridad cibern\u00e9tica en la era digital",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "La seguridad cibern\u00e9tica se vuelve cada vez m\u00e1s crucial con el aumento de los ataques digitales y la dependencia de la tecnolog\u00eda.",
+    "fecha_creacion": "2024-08-26",
+    "texto": "Nuevas herramientas y pr\u00e1cticas est\u00e1n emergiendo para proteger los datos personales y empresariales contra ciberataques.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 80,
+    "titulo": "Desarrollo de la tecnolog\u00eda 5G",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "La tecnolog\u00eda 5G est\u00e1 en expansi\u00f3n, ofreciendo velocidades de internet m\u00e1s r\u00e1pidas y mayor capacidad de red.",
+    "fecha_creacion": "2024-08-27",
+    "texto": "La implementaci\u00f3n de 5G promete transformar la conectividad global, mejorando la comunicaci\u00f3n y el acceso a la informaci\u00f3n.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 81,
+    "titulo": "El futuro de la inteligencia artificial",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "La inteligencia artificial contin\u00faa avanzando, con nuevas aplicaciones y capacidades emergentes.",
+    "fecha_creacion": "2024-08-28",
+    "texto": "La IA est\u00e1 abriendo nuevas posibilidades en \u00e1reas como la salud, la educaci\u00f3n y la automatizaci\u00f3n industrial.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 82,
+    "titulo": "Tecnolog\u00eda de blockchain en la gesti\u00f3n de datos",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "La tecnolog\u00eda blockchain est\u00e1 siendo utilizada para mejorar la gesti\u00f3n y seguridad de datos en diferentes industrias.",
+    "fecha_creacion": "2024-08-29",
+    "texto": "Blockchain proporciona una forma segura y transparente de gestionar datos, con aplicaciones en la cadena de suministro y los servicios financieros.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 83,
+    "titulo": "Desarrollo de nuevos algoritmos de aprendizaje autom\u00e1tico",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "Nuevos algoritmos de aprendizaje autom\u00e1tico est\u00e1n mejorando la precisi\u00f3n y la eficiencia de los sistemas de IA.",
+    "fecha_creacion": "2024-08-30",
+    "texto": "Los avances en algoritmos de aprendizaje autom\u00e1tico est\u00e1n permitiendo aplicaciones m\u00e1s sofisticadas en an\u00e1lisis de datos y procesamiento de lenguaje natural.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 84,
+    "titulo": "Innovaciones en la tecnolog\u00eda de reconocimiento facial",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "Se presentan nuevas innovaciones en la tecnolog\u00eda de reconocimiento facial para mejorar la seguridad y la autenticaci\u00f3n.",
+    "fecha_creacion": "2024-08-31",
+    "texto": "Las mejoras en reconocimiento facial est\u00e1n facilitando aplicaciones en seguridad, acceso a dispositivos y personalizaci\u00f3n de experiencias.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 85,
+    "titulo": "El impacto de la realidad virtual en la formaci\u00f3n profesional",
+    "clasificacion": {
+      "id_clasificacion": 3,
+      "nombre": "Tecnolog\u00eda"
+    },
+    "descripcion": "La realidad virtual est\u00e1 transformando la forma en que se lleva a cabo la formaci\u00f3n profesional y la capacitaci\u00f3n.",
+    "fecha_creacion": "2024-09-01",
+    "texto": "La realidad virtual permite experiencias de aprendizaje inmersivas que simulan escenarios reales para la capacitaci\u00f3n profesional.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 86,
+    "titulo": "Avances en la investigaci\u00f3n sobre el cambio clim\u00e1tico",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Nuevas investigaciones est\u00e1n proporcionando informaci\u00f3n clave sobre los efectos del cambio clim\u00e1tico.",
+    "fecha_creacion": "2024-08-24",
+    "texto": "Los cient\u00edficos est\u00e1n descubriendo nuevas formas de mitigar y adaptarse a los efectos del cambio clim\u00e1tico a nivel global.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 87,
+    "titulo": "Descubrimientos en la f\u00edsica cu\u00e1ntica",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Los \u00faltimos descubrimientos en f\u00edsica cu\u00e1ntica podr\u00edan cambiar nuestra comprensi\u00f3n del universo.",
+    "fecha_creacion": "2024-08-25",
+    "texto": "Investigaciones recientes est\u00e1n revelando nuevos fen\u00f3menos en la f\u00edsica cu\u00e1ntica que podr\u00edan tener implicaciones profundas en la ciencia.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 88,
+    "titulo": "Avances en la medicina personalizada",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "La medicina personalizada est\u00e1 progresando r\u00e1pidamente, ofreciendo tratamientos adaptados a las caracter\u00edsticas individuales de los pacientes.",
+    "fecha_creacion": "2024-08-26",
+    "texto": "La investigaci\u00f3n en medicina personalizada est\u00e1 llevando a terapias m\u00e1s eficaces y espec\u00edficas para el tratamiento de enfermedades.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 89,
+    "titulo": "Nuevas tecnolog\u00edas en la exploraci\u00f3n espacial",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Las tecnolog\u00edas emergentes est\u00e1n revolucionando la forma en que exploramos el espacio.",
+    "fecha_creacion": "2024-08-27",
+    "texto": "Las nuevas tecnolog\u00edas est\u00e1n permitiendo exploraciones m\u00e1s profundas y detalladas del espacio exterior.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 90,
+    "titulo": "Descubrimientos recientes en gen\u00e9tica",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Los recientes avances en gen\u00e9tica est\u00e1n proporcionando informaci\u00f3n crucial sobre la herencia y la variabilidad gen\u00e9tica.",
+    "fecha_creacion": "2024-08-28",
+    "texto": "Investigaciones en gen\u00e9tica est\u00e1n revelando nuevos aspectos sobre los mecanismos de la herencia y la variabilidad gen\u00e9tica.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 91,
+    "titulo": "Innovaciones en la biotecnolog\u00eda",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "La biotecnolog\u00eda est\u00e1 avanzando con nuevas innovaciones que tienen aplicaciones en la salud y la agricultura.",
+    "fecha_creacion": "2024-08-29",
+    "texto": "Las nuevas t\u00e9cnicas en biotecnolog\u00eda est\u00e1n ofreciendo soluciones innovadoras para problemas de salud y producci\u00f3n agr\u00edcola.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 92,
+    "titulo": "El impacto de la investigaci\u00f3n en neurociencia",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "La investigaci\u00f3n en neurociencia est\u00e1 proporcionando nuevos conocimientos sobre el funcionamiento del cerebro.",
+    "fecha_creacion": "2024-08-30",
+    "texto": "Los \u00faltimos estudios en neurociencia est\u00e1n revelando nuevos detalles sobre el cerebro y sus funciones.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 93,
+    "titulo": "Descubrimientos en la arqueolog\u00eda",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Recientes descubrimientos arqueol\u00f3gicos est\u00e1n proporcionando nuevas perspectivas sobre civilizaciones antiguas.",
+    "fecha_creacion": "2024-08-31",
+    "texto": "Los hallazgos recientes en arqueolog\u00eda est\u00e1n ampliando nuestro entendimiento de las culturas antiguas.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 94,
+    "titulo": "Nuevas t\u00e9cnicas en la investigaci\u00f3n de materiales",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "Las nuevas t\u00e9cnicas en la investigaci\u00f3n de materiales est\u00e1n mejorando la calidad y el rendimiento de los materiales utilizados en diversas industrias.",
+    "fecha_creacion": "2024-09-01",
+    "texto": "Las innovaciones en la investigaci\u00f3n de materiales est\u00e1n permitiendo avances significativos en tecnolog\u00eda y manufactura.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/uvw.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 95,
+    "titulo": "Avances en la tecnolog\u00eda de energ\u00eda renovable",
+    "clasificacion": {
+      "id_clasificacion": 4,
+      "nombre": "Ciencia"
+    },
+    "descripcion": "La tecnolog\u00eda de energ\u00eda renovable est\u00e1 avanzando r\u00e1pidamente, con nuevas soluciones para una transici\u00f3n energ\u00e9tica m\u00e1s limpia.",
+    "fecha_creacion": "2024-09-02",
+    "texto": "Las innovaciones en energ\u00eda renovable est\u00e1n facilitando una transici\u00f3n hacia fuentes de energ\u00eda m\u00e1s sostenibles.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 96,
+    "titulo": "Crisis humanitaria en \u00c1frica",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "La regi\u00f3n enfrenta una grave crisis humanitaria debido a conflictos y desastres naturales.",
+    "fecha_creacion": "2024-08-24",
+    "texto": "Organizaciones internacionales est\u00e1n trabajando para proporcionar asistencia a las comunidades afectadas por la crisis en \u00c1frica.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 97,
+    "titulo": "Protestas en Asia contra la corrupci\u00f3n",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "Grandes manifestaciones en Asia exigen reformas para combatir la corrupci\u00f3n gubernamental.",
+    "fecha_creacion": "2024-08-25",
+    "texto": "Las protestas han resultado en enfrentamientos con las fuerzas de seguridad y demandas de cambios pol\u00edticos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 98,
+    "titulo": "Acuerdo de paz en Medio Oriente",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "Un nuevo acuerdo de paz promete una soluci\u00f3n a largo plazo para el conflicto en Medio Oriente.",
+    "fecha_creacion": "2024-08-26",
+    "texto": "Los l\u00edderes internacionales se han reunido para negociar un acuerdo que podr\u00eda poner fin a d\u00e9cadas de conflicto.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 99,
+    "titulo": "Desastres naturales en Am\u00e9rica del Norte",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "Am\u00e9rica del Norte enfrenta una serie de desastres naturales, incluyendo huracanes e incendios forestales.",
+    "fecha_creacion": "2024-08-27",
+    "texto": "Las autoridades est\u00e1n trabajando en la respuesta a los desastres y en la asistencia a las comunidades afectadas.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 100,
+    "titulo": "Nuevas tensiones diplom\u00e1ticas en Europa",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "Las recientes tensiones diplom\u00e1ticas en Europa est\u00e1n afectando las relaciones entre varios pa\u00edses.",
+    "fecha_creacion": "2024-08-28",
+    "texto": "Las disputas diplom\u00e1ticas est\u00e1n generando incertidumbre en la regi\u00f3n y afectando la cooperaci\u00f3n internacional.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 101,
+    "titulo": "Avances en la cooperaci\u00f3n internacional para el cambio clim\u00e1tico",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "Se est\u00e1n realizando esfuerzos internacionales para abordar el cambio clim\u00e1tico de manera conjunta.",
+    "fecha_creacion": "2024-08-29",
+    "texto": "Los pa\u00edses est\u00e1n colaborando en iniciativas globales para reducir las emisiones y proteger el medio ambiente.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 102,
+    "titulo": "Desaf\u00edos econ\u00f3micos en Am\u00e9rica Latina",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "Am\u00e9rica Latina enfrenta una serie de desaf\u00edos econ\u00f3micos que afectan su desarrollo y estabilidad.",
+    "fecha_creacion": "2024-08-30",
+    "texto": "Los pa\u00edses latinoamericanos est\u00e1n buscando soluciones para enfrentar las dificultades econ\u00f3micas y promover el crecimiento.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 103,
+    "titulo": "Cambio en las pol\u00edticas migratorias en Europa",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "Se est\u00e1n implementando nuevas pol\u00edticas migratorias en Europa que podr\u00edan afectar a millones de personas.",
+    "fecha_creacion": "2024-08-31",
+    "texto": "Las reformas buscan gestionar mejor los flujos migratorios y mejorar la integraci\u00f3n de los inmigrantes.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 104,
+    "titulo": "Reformas educativas en Asia",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "Asia est\u00e1 implementando reformas educativas para mejorar la calidad y accesibilidad de la educaci\u00f3n.",
+    "fecha_creacion": "2024-09-01",
+    "texto": "Los cambios incluyen nuevas pol\u00edticas y programas para adaptar los sistemas educativos a las necesidades actuales.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 105,
+    "titulo": "Crecimiento urbano en ciudades africanas",
+    "clasificacion": {
+      "id_clasificacion": 1,
+      "nombre": "Mundo"
+    },
+    "descripcion": "Las ciudades africanas est\u00e1n experimentando un r\u00e1pido crecimiento urbano con nuevos desarrollos e inversiones.",
+    "fecha_creacion": "2024-09-02",
+    "texto": "El crecimiento urbano est\u00e1 impulsando el desarrollo econ\u00f3mico y planteando desaf\u00edos en t\u00e9rminos de infraestructura y servicios.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 106,
+    "titulo": "Estreno de la pel\u00edcula m\u00e1s esperada del a\u00f1o",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "La pel\u00edcula m\u00e1s esperada del a\u00f1o se estrena este fin de semana en cines de todo el mundo.",
+    "fecha_creacion": "2024-08-24",
+    "texto": "Las expectativas son altas para el estreno de esta esperada pel\u00edcula, que ha generado gran anticipaci\u00f3n entre los fan\u00e1ticos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": true
+  },
+  {
+    "id_noticias": 107,
+    "titulo": "Premios de la m\u00fasica: ganadores y sorpresas",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "La ceremonia de los premios de la m\u00fasica revel\u00f3 ganadores inesperados y sorpresas durante la gala.",
+    "fecha_creacion": "2024-08-25",
+    "texto": "Los premios destacaron a artistas emergentes y consagrados, con actuaciones memorables y sorpresas para los asistentes.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 108,
+    "titulo": "Lanzamiento de la nueva serie de televisi\u00f3n",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "Una nueva serie de televisi\u00f3n est\u00e1 lista para su lanzamiento, generando gran expectaci\u00f3n entre los espectadores.",
+    "fecha_creacion": "2024-08-26",
+    "texto": "La serie promete ofrecer una trama intrigante y personajes atractivos que capturar\u00e1n la atenci\u00f3n del p\u00fablico.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 109,
+    "titulo": "Festivales de cine internacionales en auge",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "Los festivales de cine internacionales est\u00e1n ganando popularidad y celebrando el talento global.",
+    "fecha_creacion": "2024-08-27",
+    "texto": "Estos festivales ofrecen una plataforma para cineastas de todo el mundo y destacan producciones innovadoras.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 110,
+    "titulo": "El regreso de una ic\u00f3nica banda de rock",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "Una de las bandas de rock m\u00e1s ic\u00f3nicas regresa con un nuevo \u00e1lbum y una gira mundial.",
+    "fecha_creacion": "2024-08-28",
+    "texto": "El regreso de la banda ha emocionado a los fan\u00e1ticos, con la expectativa de nuevas canciones y una gira por todo el mundo.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 111,
+    "titulo": "Celebridades en la alfombra roja",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "Las celebridades deslumbran en la \u00faltima alfombra roja con atuendos impresionantes y estilos \u00fanicos.",
+    "fecha_creacion": "2024-08-29",
+    "texto": "La alfombra roja ha sido el centro de atenci\u00f3n, con celebridades mostrando sus mejores looks y causando furor en las redes sociales.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 112,
+    "titulo": "La evoluci\u00f3n de los videojuegos en la \u00faltima d\u00e9cada",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "Los videojuegos han evolucionado considerablemente en la \u00faltima d\u00e9cada, ofreciendo experiencias m\u00e1s inmersivas.",
+    "fecha_creacion": "2024-08-30",
+    "texto": "Desde gr\u00e1ficos mejorados hasta nuevas formas de juego, la industria del videojuego ha experimentado avances significativos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 113,
+    "titulo": "Entrevista exclusiva con una estrella del cine",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "Una estrella del cine revela detalles sobre su carrera y proyectos futuros en una entrevista exclusiva.",
+    "fecha_creacion": "2024-08-31",
+    "texto": "La entrevista ofrece una visi\u00f3n \u00fanica sobre la vida y carrera de la estrella, con insights sobre sus pr\u00f3ximos proyectos.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 114,
+    "titulo": "Los mejores eventos de entretenimiento del a\u00f1o",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "Un repaso a los eventos de entretenimiento m\u00e1s destacados del a\u00f1o, incluyendo conciertos y festivales.",
+    "fecha_creacion": "2024-09-01",
+    "texto": "Los eventos han atra\u00eddo a grandes multitudes y han sido momentos clave para la industria del entretenimiento.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/xyz.jpg",
+    "trending": false
+  },
+  {
+    "id_noticias": 115,
+    "titulo": "El auge de las plataformas de streaming",
+    "clasificacion": {
+      "id_clasificacion": 7,
+      "nombre": "Entretenimiento"
+    },
+    "descripcion": "Las plataformas de streaming contin\u00faan ganando popularidad y ofreciendo contenido exclusivo a los suscriptores.",
+    "fecha_creacion": "2024-09-02",
+    "texto": "El crecimiento de las plataformas de streaming est\u00e1 cambiando la forma en que consumimos medios y entretenimiento.",
+    "enlace_photo": "https://cdn2.thecatapi.com/images/abc.jpg",
+    "trending": false
   }
 ]

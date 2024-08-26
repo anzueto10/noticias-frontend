@@ -1,7 +1,4 @@
-export interface Category {
-  id_clasificacion: number;
-  nombre: string;
-}
+import type { Category } from "@/modules/categories/types";
 
 export interface New {
   id_noticias: number;
@@ -11,11 +8,11 @@ export interface New {
   fecha_creacion: string;
   texto: string;
   enlace_photo: string;
+  trending: boolean;
 }
 
 export interface NewCardProps {
   new: New;
-  innerRef?: React.Ref<HTMLDivElement>;
 }
 
 export interface MoreReadNewCardProps extends NewCardProps {

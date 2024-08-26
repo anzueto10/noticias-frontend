@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { OpinionCardProps } from "../../types";
+import type { OpinionCardProps } from "@/modules/opinions/types";
 
 const OpinionCard: React.FC<OpinionCardProps> = ({ opinion }) => {
   const { author, new: newLy } = opinion;

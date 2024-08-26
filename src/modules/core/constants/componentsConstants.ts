@@ -14,7 +14,7 @@ export const NAVBAR_LINKS: {
     href: "/news",
   },
   RECOMMENDED_NEWS: {
-    text: "Noticias Recomendadas",
+    text: "Recomendaciones",
     href: "/news/recommended",
   },
 };

@@ -1,6 +1,7 @@
 import opinionsMock from "@/modules/opinions/mocks/opinions.json";
-import { Opinion } from "../../types";
-import OpinionCard from "../cards/OpinionCard";
+import type { Opinion } from "@/modules/opinions/types";
+
+import OpinionCard from "@/modules/opinions/components/cards/OpinionCard";
 
 const OpinionsContainer = async () => {
   const opinions: Array<Opinion> = await opinionsMock;
