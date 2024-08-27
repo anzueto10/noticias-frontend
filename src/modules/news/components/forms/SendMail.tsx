@@ -5,7 +5,7 @@ const SendMail = () => {
   //TODO Integrar con Formik
   return (
     <form className="flex space-x-2">
-      <Input placeholder="Ingresa tu email" type="email" />
+      <Input placeholder="Ingresa tu email" type="email" variant="secondary" />
       <Button variant="primary" color="highlight">
         Suscribirse
       </Button>

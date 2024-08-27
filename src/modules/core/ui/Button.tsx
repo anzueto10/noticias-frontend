@@ -10,7 +10,7 @@ const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   const baseClasses =
-    "inline-flex items-center gap-2 rounded-md py-1.5 px-3 text-sm font-semibold focus:outline-none transition-colors";
+    "inline-flex items-center gap-2 rounded-md py-1.5 px-3 text-sm font-semibold focus:outline-none transition-colors items-center justify-center";
 
   const variantClasses = {
     primary: "shadow-inner",
@@ -37,6 +37,7 @@ const Button: React.FC<ButtonProps> = ({
     sm: "py-1 px-2 text-xs",
     md: "py-1.5 px-3 text-sm",
     lg: "py-2 px-4 text-base",
+    icon: "p-4 text-base",
   };
 
   const combinedClasses = `

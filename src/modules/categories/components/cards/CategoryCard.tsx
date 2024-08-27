@@ -19,7 +19,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({
         {/*<category.icon className="h-6 w-6 text-white" /> */}
       </div>
       <div className="p-4 flex-grow flex flex-col gap-3">
-        <CategoryNewsContainer news={news} />
+        {news && <CategoryNewsContainer news={news} />}
         <Link
           href={`/categories/${id_clasificacion}`}
           className="inline-flex items-center text-sm font-medium mt-auto text-blue-600 dark:text-blue-400 hover:underline"
