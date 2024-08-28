@@ -4,12 +4,12 @@ import Select from "@/modules/core/ui/fields/Select";
 import { ArrowPathIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import Switch from "@/modules/core/ui/fields/Switch";
-import categoriesMock from "@/modules/categories/mocks/categories.json";
-import type { Category } from "@/modules/categories/types";
 import RecommendedNewCard from "@/modules/news/components/cards/RecommendedNewCard";
 import type { New } from "@/modules/news/types";
 import { getAllNews } from "../../api/news";
 import { useAuthStore } from "@/context/store";
+import useCategories from "@/modules/categories/hooks/useCategories";
+import SpinnerLoader from "@/modules/core/ui/loaders/SpinnerLoader";
 
 const RecommendedNewsContainer = ({
   initialNews,
@@ -17,11 +17,10 @@ const RecommendedNewsContainer = ({
   initialNews: Array<New>;
 }) => {
   const [showTrending, setShowTrending] = useState(false);
-  const categories: Array<Category> = categoriesMock;
   const [filter, setFilter] = useState<"all" | string>("all");
   const [news, setNews] = useState(initialNews);
   const { token } = useAuthStore();
-
+  const { categories, error, loading } = useCategories();
   const filteredNews = news
     .filter(
       (newLy) =>
@@ -47,15 +46,23 @@ const RecommendedNewsContainer = ({
     <section className="w-full py-4 flex-grow">
       <div className="flex flex-col md:flex-row justify-between items-center mb-8 space-y-4 md:space-y-0">
         <div className="flex items-center space-x-4">
-          <Select
-            options={[{ value: "all", text: "Todas" }].concat(
-              categories.map((category) => ({
-                value: category.id_clasificacion.toString(),
-                text: category.nombre,
-              }))
-            )}
-            onChange={(e) => setFilter(e.currentTarget.value)}
-          />
+          {!error && (
+            <>
+              {loading ? (
+                <SpinnerLoader />
+              ) : (
+                <Select
+                  options={[{ value: "all", text: "Todas" }].concat(
+                    categories.map((category) => ({
+                      value: category.id_clasificacion.toString(),
+                      text: category.nombre,
+                    }))
+                  )}
+                  onChange={(e) => setFilter(e.currentTarget.value)}
+                />
+              )}
+            </>
+          )}
           <div className="flex items-center space-x-2">
             <label className="inline-flex items-center cursor-pointer">
               <Switch id="trending-mode" onChange={handdleSwitchChange} />
