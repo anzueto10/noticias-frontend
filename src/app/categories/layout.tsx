@@ -1,7 +1,3 @@
-import { Metadata } from "next";
-
-export const metadata: Metadata = {};
-
 const CategoriesLayout = ({
   children,
 }: {

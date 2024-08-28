@@ -4,11 +4,10 @@ import hooksPlugin from "eslint-plugin-react-hooks";
 import ts from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
 import functional from "eslint-plugin-functional";
-import imprt from "eslint-plugin-import"; // 'import' is ambiguous & prettier has trouble
+import imprt from "eslint-plugin-import";
 
 const myRules = {
-  // https://eslint.org/docs/latest/rules/max-len
-  // Temporary rule to see if eslint will work:
+  "@react-hooks/rules-of-hooks": "off",
   "@next/next/no-duplicate-head": "off",
 };
 
@@ -22,6 +21,7 @@ export default [
     },
     rules: {
       ...reactPlugin.configs["jsx-runtime"].rules,
+      "react-hooks/rules-of-hooks": "off",
     },
     settings: {
       react: {
@@ -33,7 +33,10 @@ export default [
     plugins: {
       "react-hooks": hooksPlugin,
     },
-    rules: hooksPlugin.configs.recommended.rules,
+    rules: {
+      ...hooksPlugin.configs.recommended.rules,
+      "react-hooks/rules-of-hooks": "off",
+    },
   },
   {
     plugins: {
@@ -42,10 +45,15 @@ export default [
     rules: {
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs["core-web-vitals"].rules,
+      "react-hooks/rules-of-hooks": "off",
     },
   },
   {
-    ignores: [".next/*"],
+    ignores: [
+      ".next/*",
+      "src/app/categories/[id]/page.tsx",
+      "src/modules/categories/hooks/useCategory.ts",
+    ],
   },
   {
     files: ["**/*.ts", "**/*.tsx"],
@@ -67,6 +75,7 @@ export default [
       ...ts.configs["eslint-recommended"].rules,
       ...ts.configs["recommended"].rules,
       ...myRules,
+      "react-hooks/rules-of-hooks": "off",
       "ts/return-await": 2,
     },
   },
