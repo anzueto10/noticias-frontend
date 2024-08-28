@@ -1,18 +1,17 @@
-import { ChangeEvent } from "react";
+import { InputHTMLAttributes } from "react";
 
-interface Props {
-  setValue: (e: ChangeEvent<HTMLInputElement>) => void;
-  value: boolean;
+interface Props extends InputHTMLAttributes<HTMLInputElement> {
+  isChecked: boolean;
 }
 
-const CheckInput: React.FC<Props> = ({ setValue, value }) => {
+const CheckInput: React.FC<Props> = ({ onChange, isChecked, ...props }) => {
   return (
     <input
-      id="checked-checkbox"
+      {...props}
       type="checkbox"
       className="w-4 h-4"
-      onChange={setValue}
-      defaultChecked={value}
+      onChange={onChange}
+      defaultChecked={isChecked}
     />
   );
 };

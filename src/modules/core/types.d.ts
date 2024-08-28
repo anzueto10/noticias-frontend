@@ -24,3 +24,11 @@ interface ModalProps {
   dialogTitle?: string;
   dialogDescription?: string;
 }
+
+export interface User {
+  id_usuario: number;
+  nombre: string;
+  apellido: string;
+  edad: number;
+  correo: string;
+}

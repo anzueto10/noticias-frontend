@@ -49,9 +49,7 @@ const LoginUserForm = () => {
 
   const loginValidationSchema = object({
     email: string().required("Por favor, ingresa tu correo."),
-    password: string()
-      .min(8, "Tu contraseña debe de tener 8 o más caracteres.")
-      .required("Por favor, ingresa tu contraseña."),
+    password: string().required("Por favor, ingresa tu contraseña."),
   });
   return (
     <Formik
