@@ -1,10 +1,28 @@
+"use client";
 import OpinionsContainer from "@/modules/opinions/components/containers/OpinionsContainer";
-import type { New } from "@/modules/news/types";
 import NewsContainer from "@/modules/news/components/containers/NewsContainer";
 import MoreReadNewsContainer from "@/modules/news/components/containers/MoreReadNewsContainer";
 import Link from "next/link";
+import useNews from "../hooks/useNews";
+import { useAuthStore } from "@/context/store";
+import SpinnerLoader from "@/modules/core/ui/loaders/SpinnerLoader";
 
-const OpinionsAndLastNewsSection = ({ news }: { news: Array<New> }) => {
+const OpinionsAndLastNewsSection = () => {
+  const { token } = useAuthStore();
+
+  if (!token) return;
+
+  const { news, error, loading } = useNews(token);
+
+  if (error)
+    return (
+      <div className="container mx-auto px-4 py-8 flex-grow">
+        <h1 className="mx-auto font-bold text-4xl text-center my-auto">
+          Ha ocurrido un error inesperado, por favor vuelva de nuevo más tarde.
+        </h1>
+      </div>
+    );
+
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
@@ -13,13 +31,20 @@ const OpinionsAndLastNewsSection = ({ news }: { news: Array<New> }) => {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">
               Últimas Noticias
             </h2>
-            <NewsContainer news={news} newsToShow={4} />
-            <Link
-              href="/news/"
-              className="flex flex-col items-center justify-center px-6 py-3 border rounded-lg shadow-md hover:bg-accent-light transition-colors flex-grow max-w-fit"
-            >
-              <span className="text-sm font-medium">Ver Más</span>
-            </Link>
+            {loading ? (
+              <SpinnerLoader />
+            ) : (
+              <>
+                {" "}
+                <NewsContainer news={news} newsToShow={4} />
+                <Link
+                  href="/news/"
+                  className="flex flex-col items-center justify-center px-6 py-3 border rounded-lg shadow-md hover:bg-accent-light transition-colors flex-grow max-w-fit"
+                >
+                  <span className="text-sm font-medium">Ver Más</span>
+                </Link>
+              </>
+            )}
           </div>
           <div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">

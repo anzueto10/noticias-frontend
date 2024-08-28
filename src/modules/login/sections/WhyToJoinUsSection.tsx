@@ -1,10 +1,17 @@
+"use client";
 import { CATEGORY_CARD_BACKGROUND_COLORS } from "@/modules/categories/constants";
 import categoriesMock from "@/modules/categories/mocks/categories.json";
+import { New } from "@/modules/news/types";
+import { useEffect, useState } from "react";
 import newsMock from "@/modules/news/mocks/news.json";
 
-const WhyToJoinUsSection = async () => {
+const WhyToJoinUsSection = () => {
   const colors = Object.entries(CATEGORY_CARD_BACKGROUND_COLORS);
-  const trendingNews = newsMock.filter((newLy) => newLy.trending);
+  const [trendingNews, setTrendingNews] = useState<Array<New>>([]);
+  useEffect(() => {
+    const trendingNews = newsMock.filter((newLy) => newLy.trending);
+    setTrendingNews(trendingNews);
+  }, []);
   return (
     <section className="flex flex-col lg:flex-row items-center justify-center gap-8">
       <div className="w-full max-w-md space-y-8">

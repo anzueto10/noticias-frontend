@@ -22,7 +22,6 @@ export interface MoreReadNewCardProps extends NewCardProps {
 export interface NewCategoryProps {
   category: Category;
 }
-
 interface NewsContainerProps {
   news: Array<New>;
   newsToShow?: number;

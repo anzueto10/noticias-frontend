@@ -1,4 +1,4 @@
-import WhyToJoinUsSection from "@/modules/login/components/forms/WhyToJoinUsSection";
+import WhyToJoinUsSection from "@/modules/login/sections/WhyToJoinUsSection";
 import LoginSection from "@/modules/login/sections/LoginSection";
 
 const LoginPage = () => {

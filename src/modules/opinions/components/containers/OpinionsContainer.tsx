@@ -1,10 +1,9 @@
-import opinionsMock from "@/modules/opinions/mocks/opinions.json";
-import type { Opinion } from "@/modules/opinions/types";
-
+"use client";
 import OpinionCard from "@/modules/opinions/components/cards/OpinionCard";
+import useOpinions from "../../hooks/useOpinions";
 
-const OpinionsContainer = async () => {
-  const opinions: Array<Opinion> = await opinionsMock;
+const OpinionsContainer = () => {
+  const { opinions } = useOpinions();
   return (
     <div className="grid gap-6">
       <ul>

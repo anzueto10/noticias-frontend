@@ -9,7 +9,7 @@ const FullNewsContainer: React.FC<NewsContainerProps> = ({
     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       {news.length > 0 ? (
         <>
-          {news.slice(0, newsToShow ? newsToShow : -1).map((newLy) => (
+          {news.slice(0, newsToShow || news.length).map((newLy) => (
             <FullNewCard new={newLy} key={newLy.id_noticias} />
           ))}
         </>

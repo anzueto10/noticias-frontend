@@ -9,8 +9,9 @@ import type { LoginFormValues } from "@/modules/login/types";
 import { object, string } from "yup";
 import { loginUser } from "@/modules/login/api/user";
 import LoaderModal from "@/modules/core/ui/modals/LoaderModal";
-import InvalidCredentialsError from "../../errors/InvalidCredentialsError";
+import InvalidCredentialsError from "@/modules/login/errors/InvalidCredentialsError";
 import { useRouter } from "next/navigation";
+import { useAuthStore } from "@/context/store";
 
 const LoginUserForm = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -21,22 +22,28 @@ const LoginUserForm = () => {
   };
   const [error, setError] = useState<string | null>(null);
   const router = useRouter();
+  const { setToken } = useAuthStore();
+
   const handleLogin = async (values: LoginFormValues) => {
     const { email, password, rememberMe } = values;
 
     try {
       const response = await loginUser({ email, password, rememberMe });
       if (!response.token) throw new InvalidCredentialsError();
+
       setError(null);
+      setToken(response.token);
       router.push("/");
     } catch (e: unknown) {
-      if (e instanceof InvalidCredentialsError)
+      if (e instanceof InvalidCredentialsError) {
         setError("Credenciales incorrectas.");
-      else if (e instanceof Error) setError(e.message);
-      else
+      } else if (e instanceof Error) {
+        setError(e.message);
+      } else {
         setError(
-          "Ha Ocurrido un error inesperado, por favor, inténtalo de nuevo más tarde."
+          "Ha ocurrido un error inesperado, por favor, inténtalo de nuevo más tarde."
         );
+      }
     }
   };
 

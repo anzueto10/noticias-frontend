@@ -9,7 +9,7 @@ const FeaturedNewsContainer: React.FC<NewsContainerProps> = ({
     <div id="featured-news-container">
       {news.length > 0 ? (
         <ul className="space-y-4">
-          {news.slice(0, newsToShow ? newsToShow : -1).map((newLy, index) => (
+          {news.slice(0, newsToShow || news.length).map((newLy, index) => (
             <li key={index}>
               <FeaturedNewCard new={newLy} />
             </li>

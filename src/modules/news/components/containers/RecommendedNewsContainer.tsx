@@ -8,7 +8,8 @@ import categoriesMock from "@/modules/categories/mocks/categories.json";
 import type { Category } from "@/modules/categories/types";
 import RecommendedNewCard from "@/modules/news/components/cards/RecommendedNewCard";
 import type { New } from "@/modules/news/types";
-import newsMock from "@/modules/news/mocks/news.json";
+import { getAllNews } from "../../api/news";
+import { useAuthStore } from "@/context/store";
 
 const RecommendedNewsContainer = ({
   initialNews,
@@ -19,6 +20,7 @@ const RecommendedNewsContainer = ({
   const categories: Array<Category> = categoriesMock;
   const [filter, setFilter] = useState<"all" | string>("all");
   const [news, setNews] = useState(initialNews);
+  const { token } = useAuthStore();
 
   const filteredNews = news
     .filter(
@@ -33,10 +35,12 @@ const RecommendedNewsContainer = ({
   };
 
   const handdleReloadNews = async () => {
-    const newNews = await (newsMock.length <= 6
-      ? [...newsMock]
-      : newsMock.sort(() => Math.random() - 0.5).slice(0, 6));
-    await setNews(newNews);
+    const news = await getAllNews({ token: token as string });
+    const newNews =
+      news.length <= 6
+        ? [...news]
+        : news.sort(() => Math.random() - 0.5).slice(0, 6);
+    setNews(newNews);
   };
 
   return (

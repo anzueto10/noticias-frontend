@@ -1,6 +1,10 @@
+"use client";
+import useValidateSession from "@/modules/core/hooks/useValidateSession";
 import LazyNewsContainer from "@/modules/news/components/containers/LazyNewContainer";
 
-const NewsPage = async () => {
+const NewsPage = () => {
+  useValidateSession();
+
   return (
     <main className="w-full flex-grow flex-1 p-3">
       <header className="space-y-5 text-center">

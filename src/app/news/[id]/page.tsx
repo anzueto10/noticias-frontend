@@ -1,27 +1,47 @@
-import newsMock from "@/modules/news/mocks/news.json";
+"use client";
 import PageNewCard from "@/modules/news/components/cards/PageNewCard";
 import RealtedNewsNewPageSection from "@/modules/news/sections/RealtedNewsNewPageSection";
+import useValidateSession from "@/modules/core/hooks/useValidateSession";
+import useNew from "@/modules/news/hooks/useNew";
+import SpinnerLoader from "@/modules/core/ui/loaders/SpinnerLoader";
+import NotFoundSection from "@/modules/core/sections/404Section";
 
 const NewPage = ({ params }: { params: { id: string } }) => {
-  const newId = parseInt(params.id);
-  const newLy = newsMock[newId - 1];
-  const { clasificacion } = newLy;
+  const { token } = useValidateSession();
 
-  const relatedNews = newsMock
-    .filter(
-      (newLy) =>
-        newLy.clasificacion.id_clasificacion === clasificacion.id_clasificacion,
-    )
-    .slice(newId !== 1 ? 0 : 1, newId !== 1 ? 3 : 4);
+  const newId = parseInt(params.id);
+
+  const { error, loading, newLy } = useNew(token as string, newId);
+
+  if (error)
+    return (
+      <div className="container mx-auto px-4 py-8 flex-grow">
+        <h1 className="mx-auto font-bold text-4xl text-center my-auto">
+          Ha ocurrido un error inesperado, por favor vuelva de nuevo más tarde.
+        </h1>
+      </div>
+    );
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <PageNewCard new={newLy} />
-      <hr className="my-8" />
+      {loading ? (
+        <SpinnerLoader />
+      ) : (
+        <>
+          {newLy ? (
+            <>
+              <PageNewCard new={newLy} />
+              <hr className="my-8" />
 
-      <RealtedNewsNewPageSection relatedNews={relatedNews} />
+              <RealtedNewsNewPageSection />
 
-      <hr className="my-8" />
+              <hr className="my-8" />
+            </>
+          ) : (
+            <NotFoundSection />
+          )}
+        </>
+      )}
     </div>
   );
 };

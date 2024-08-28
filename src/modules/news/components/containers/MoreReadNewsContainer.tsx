@@ -9,7 +9,7 @@ const MoreReadNewsContainer: React.FC<NewsContainerProps> = ({
     <div className="space-y-4">
       {news.length > 0 ? (
         <>
-          {news.slice(0, newsToShow ? newsToShow : -1).map((newLy, index) => (
+          {news.slice(0, newsToShow || news.length).map((newLy, index) => (
             <MoreReadNewCard key={index} new={newLy} index={index} />
           ))}
         </>

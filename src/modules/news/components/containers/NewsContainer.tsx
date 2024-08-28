@@ -6,7 +6,7 @@ const NewsContainer: React.FC<NewsContainerProps> = ({ news, newsToShow }) => {
     <div>
       {news.length > 0 ? (
         <ul className="space-y-4 flex flex-col">
-          {news.slice(0, newsToShow ? newsToShow : -1).map((newLy) => (
+          {news.slice(0, newsToShow || news.length).map((newLy) => (
             <li key={newLy.id_noticias}>
               <NewCard new={newLy} />
             </li>

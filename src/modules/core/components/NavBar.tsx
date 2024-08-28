@@ -7,8 +7,11 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NAVBAR_LINKS } from "@/modules/core/constants/componentsConstants";
 import Link from "next/link";
+import { useAuthStore } from "@/context/store";
+import Button from "../ui/Button";
 
 const NavBar = () => {
+  const { clearToken, token } = useAuthStore();
   return (
     <Disclosure as="nav" className="border-b-2">
       <div className="w-full px-2 sm:px-6 lg:px-8">
@@ -47,6 +50,11 @@ const NavBar = () => {
                     {text}
                   </Link>
                 ))}
+                {token && (
+                  <Button size="sm" onClick={() => clearToken()}>
+                    Cerrar Seción
+                  </Button>
+                )}
               </div>
             </div>
           </div>

@@ -1,34 +1,34 @@
-import type { New } from "@/modules/news/types";
-import Link from "next/link";
+"use client";
+import { useAuthStore } from "@/context/store";
+import useRelatedNews from "../hooks/useRelatedNews";
+import SpinnerLoader from "@/modules/core/ui/loaders/SpinnerLoader";
+import RelatedNewCard from "../components/cards/RelatedNewCard";
 
-const RealtedNewsNewPageSection = ({
-  relatedNews,
-}: {
-  relatedNews: Array<New>;
-}) => {
+const RealtedNewsNewPageSection = () => {
+  const { token } = useAuthStore();
+  const { error, loading, news: relatedNews } = useRelatedNews(token as string);
+  if (error)
+    return (
+      <div className="container mx-auto px-4 py-8 flex-grow">
+        <h1 className="mx-auto font-bold text-4xl text-center my-auto">
+          Ha ocurrido un error inesperado, por favor vuelva de nuevo más tarde.
+        </h1>
+      </div>
+    );
+
   return (
     <section className="max-w-4xl mx-auto">
       <h2 className="text-2xl font-bold mb-4">Noticias Relacionadas</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {relatedNews.map((news) => (
-          <Link
-            key={news.id_noticias}
-            href={`/news/${news.id_noticias}`}
-            className="flex items-center space-x-4 p-4 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-          >
-            <img
-              src={news.enlace_photo}
-              alt="Foto"
-              className="w-16 h-16 object-cover rounded"
-            />
-            <div>
-              <h3 className="font-semibold mb-1">{news.titulo}</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
-                {new Date(news.fecha_creacion).toLocaleDateString()}
-              </p>
-            </div>
-          </Link>
-        ))}
+        {loading ? (
+          <SpinnerLoader />
+        ) : (
+          <>
+            {relatedNews.slice(0, 3).map((newLy) => (
+              <RelatedNewCard new={newLy} key={newLy.id_noticias} />
+            ))}
+          </>
+        )}
       </div>
     </section>
   );

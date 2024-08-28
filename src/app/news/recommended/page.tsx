@@ -1,7 +1,11 @@
+"use client";
+import useValidateSession from "@/modules/core/hooks/useValidateSession";
 import Button from "@/modules/core/ui/Button";
 import RecommendedNewsSection from "@/modules/news/sections/RecommendedNewsSection";
 
 const NewsRecommendedPage = () => {
+  useValidateSession();
+
   return (
     <>
       <RecommendedNewsSection />
